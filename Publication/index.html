@@ -1,343 +1,721 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="referrer" content="origin-when-cross-origin">
-    <meta name="Rg-Request-Token" id="Rg-Request-Token" content="aad-W2BUpN2w4rM5MxFxJONercxEjzx2iA+UXwcM/SiZrU5Dq+kr2C9eYg5QpsTxXfqOG8IjGyJPwD3tiMqAq3P6wxJG9QSWvUA0c8a8u1a0yBVJJIjOx/LVpyJoi8ARBKvjJGDaB67VntH81YOpUBefXL9H0FqKDyx7QQap6IZxhvnOPSOMdi1sJYpqreuzhA/OIpn359McfK3PmlSUjMm379KVtcNdof9umrtw6FirHHT64PNNXzK22FxnHnwZlRV8v0GFnKdaJaVQXV7ExsA1iac1j1Sy">
-    <meta http-equiv="expires" content="0">
-    <link rel="preload" as="script" href="https://c5.rgstatic.net/m/4168148719612450/javascript/errorLogging/logger.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/m/442808549102517/javascript/vendor/lscache/lscache.min.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/m/413531562087999/javascript/min/extensions/Hogan.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/javascript/modern/polyfill.7ab985.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/m/494411657088535/javascript/lib/yui3/yui/yui-min.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/m/44248183402107758/javascript/yuiLoaderConfig-min.js" crossOrigin="1"><link rel="preload" as="style" href="https://c5.rgstatic.net/styles/bundles/common.2cbed9.css"><link rel="preload" as="style" href="https://c5.rgstatic.net/styles/bundles/bootstrap.ac5051.css"><link rel="preload" as="script" href="https://c5.rgstatic.net/javascript/bundles/runtime.3a25c8.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/javascript/bundles/common_rg.8ff64d.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/javascript/bundles/common_vendor.390512.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/javascript/bundles/common.2cbed9.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/javascript/bundles/bootstrap.ac5051.js" crossOrigin="1"><link rel="preload" as="script" href="https://c5.rgstatic.net/m/4171039190216056/javascript/min/core/widgetLoader.js" crossOrigin="1"><link rel="preload" as="style" href="https://c5.rgstatic.net/m/42796331518119734/styles/rg.css"><link rel="preload" as="style" href="https://c5.rgstatic.net/m/43919163723106382/styles/rg2.css"><link rel="preload" as="style" href="https://c5.rgstatic.net/m/44258082290542051/styles/rg-nova-legacy.css"><link rel="preload" as="style" href="https://c5.rgstatic.net/m/43686487024283604/styles/icons.css"><link rel="preload" as="font" href="https://c5.rgstatic.net/m/4377210183614584/fonts/roboto-v15-latin-400.woff2" type="font/woff2" crossOrigin="anonymous"><link rel="preload" as="font" href="https://c5.rgstatic.net/m/4263650741714552/fonts/roboto-v15-latin-700.woff2" type="font/woff2" crossOrigin="anonymous">        <link rel="icon" type="image/png" href="https://c5.rgstatic.net/m/42199702882742/images/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.researchgate.net/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="https://c5.rgstatic.net/m/4703305218405/images/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/x-icon" href="https://c5.rgstatic.net/m/4380572179316878/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" href="https://www.researchgate.net/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="https://www.researchgate.net/manifest.json">
-    <meta name="application-name" content="ResearchGate">
-    <link rel="search" type="application/opensearchdescription+xml" title="ResearchGate search" href="https://www.researchgate.net/application.DownloadOpenSearchPlugin.html">
-    <link rel="meta" type="application/rdf+xml" title="ICRA labels" href="https://www.researchgate.net/application.DownloadLabels.html">
-    <link rel="http://oexchange.org/spec/0.8/rel/related-target" type="application/xrd+xml" href="https://www.researchgate.net/application.DownloadOExchange.html">
-    <base href="https://www.researchgate.net/" />
-    <script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-        var pageConfig = {"module":"labs","action":"labs.LabDetails","product":"application","stylesHome":"https:\/\/c5.rgstatic.net\/m\/","staticHost":"https:\/\/c5.rgstatic.net","yuiDisabled":false,"longRunningRequestIdentifier":"LongRunningRequest.labs.LabDetails","longRunningRequestFp":"5a1abbb95b860feaf358fce8df3bfe646b98853e","platformFeatures":{"nova":{"UseNovaRefresh":true},"rigel":{"useRigelForgeryOverlay":false},"react":{"propTypesStrictMode":false}},"isLitePage":false,"applicationVersionTag":"v517.8.0","trackingPayload":{"context":{"firstPage":"_direct","page":"_direct"}}};
-        var requestConfig = {"correlationId":"rgreq-c85f24bd0b6777920bf0f8931807eb78","isLoggedIn":true};
-        window.rootUrl = "https://www.researchgate.net/";
-        window.trackingConfig = {"flag":"cloudflare","continent":"North America","countryCode":"US","isEU":false,"isCrawler":false,"isMobile":false,"logExtendedRequest":true,"logTimeToFirstAd":true,"fingerprint":"733cd31d9d82860a3d9c2a2ce23b0a0c10238df7"};
-            </script>
-    <script id="Rg-Request-Cache-Config" nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-        var requestCachedConfig = {};
-    </script>
-    <noscript></noscript><meta property="twitter:site" content="@ResearchGate">
-<meta property="twitter:creator" content="@ResearchGate">
-<meta property="twitter:card" content="summary">
-<meta property="og:site" content="ResearchGate">
-<meta property="og:site_name" content="ResearchGate">
-<meta property="og:type" content="website">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noarchive">
-<link rel="dns-prefetch" href="https://c5.rgstatic.net">
-<link rel="dns-prefetch" href="https://i1.rgstatic.net">
-<link rel="preconnect" href="https://securepubads.g.doubleclick.net">
-<link rel="preconnect" href="https://www.google-analytics.com">
-<script type="text/javascript">window.gdprAppliesGlobally=false;(function(){function n(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var r=document.createElement("iframe");r.style.display="none";r.name=e;r.title=e;t.insertBefore(r,t.firstChild)}else{setTimeout(function(){n(e)},5)}}}function e(r,a,o,c,s){function e(e,t,r,n){if(typeof r!=="function"){return}if(!window[a]){window[a]=[]}var i=false;if(s){i=s(e,n,r)}if(!i){window[a].push({command:e,version:t,callback:r,parameter:n})}}e.stub=true;e.stubVersion=2;function t(n){if(!window[r]||window[r].stub!==true){return}if(!n.data){return}var i=typeof n.data==="string";var e;try{e=i?JSON.parse(n.data):n.data}catch(t){return}if(e[o]){var a=e[o];window[r](a.command,a.version,function(e,t){var r={};r[c]={returnValue:e,success:t,callId:a.callId};n.source.postMessage(i?JSON.stringify(r):r,"*")},a.parameter)}}if(typeof window[r]!=="function"){window[r]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");n("__tcfapiLocator");(function(e,t){var r=document.createElement("link");r.rel="preconnect";r.as="script";var n=document.createElement("link");n.rel="dns-prefetch";n.as="script";var i=document.createElement("link");i.rel="preload";i.as="script";var a=document.createElement("script");a.id="spcloader";a.type="text/javascript";a["async"]=true;a.charset="utf-8";var o="https://sdk.privacy-center.org/"+e+"/loader.js?target_type=notice&target="+t;if(window.didomiConfig&&window.didomiConfig.user){var c=window.didomiConfig.user;var s=c.country;var d=c.region;if(s){o=o+"&country="+s;if(d){o=o+"&region="+d}}}r.href="https://sdk.privacy-center.org/";n.href="https://sdk.privacy-center.org/";i.href=o;a.src=o;var f=document.getElementsByTagName("script")[0];f.parentNode.insertBefore(r,f);f.parentNode.insertBefore(n,f);f.parentNode.insertBefore(i,f);f.parentNode.insertBefore(a,f)})("a2e452ad-6809-4db5-9e77-6612652fa329","LF7DDfmG")})();</script>
-<script>
-window.didomiOnReady = window.didomiOnReady || [];
-window.didomiOnReady.push(function (Didomi) {
-    if (Didomi.isConsentRequired()) {
-        Didomi.getObservableOnUserConsentStatusForVendor('c:posthog-BjJxFdF9')
-            .filter(function(status) { return status === true; })
-            .first()
-            .subscribe(function (consentStatusForVendor) {
-                if (window.enablePostHogFeaturesAfterUserConsent) {
-                    window.enablePostHogFeaturesAfterUserConsent()
-                }
-            });
-        let didomiPreferencesLink = document.getElementById('didomiPreferencesLink');
-        if (didomiPreferencesLink) {
-            didomiPreferencesLink.style.display = 'inline';
-        }
-    } else {
-        if (window.enablePostHogFeaturesAfterUserConsent) {
-            window.enablePostHogFeaturesAfterUserConsent()
-        }
-    }
-});
+	<meta charset="UTF-8" />
+	<meta name='robots' content='noindex,nofollow' />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+<title>Publications</title>
+<link rel="alternate" type="application/rss+xml" title="tryea;;lrkhjbsd &raquo; Feed" href="https://commons.mtholyoke.edu/tryasdfeb/feed/" />
+<link rel="alternate" type="application/rss+xml" title="tryea;;lrkhjbsd &raquo; Comments Feed" href="https://commons.mtholyoke.edu/tryasdfeb/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.18 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+					<!-- No tracking code set -->
+				<!-- / Google Analytics by MonsterInsights -->
+		<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/commons.mtholyoke.edu\/tryasdfeb\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 </script>
-<script type="text/javascript">
-var countryCode;
-if (window) {
-    countryCode = (window.requestCachedConfig && window.requestCachedConfig.country) || (window.trackingConfig && window.trackingConfig.countryCode);
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
+</style>
+	<link rel='stylesheet' id='mhc-accessibility-footer-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/mhc-accessibility-footer/mhc-accessibility-footer.css?ver=1710571429' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/css/dashicons.min.css?ver=6.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/css/admin-bar.min.css?ver=6.3.3' type='text/css' media='all' />
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}
+</style>
+<style id='wp-block-spacer-inline-css' type='text/css'>
+.wp-block-spacer{clear:both}
+</style>
+<style id='wp-block-search-inline-css' type='text/css'>
+.wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{fill:currentColor;min-height:24px;min-width:24px;vertical-align:text-bottom}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search__input{-webkit-appearance:initial;appearance:none;border:1px solid #949494;flex-grow:1;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important}.wp-block-search.wp-block-search__button-only .wp-block-search__button{margin-left:0}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block-search__button-behavior-expand .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search__button-behavior-expand .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search__button-behavior-expand.wp-block-search__searchfield-hidden,.wp-block-search__button-behavior-expand.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search__button-behavior-expand.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}.wp-block[data-align=right] .wp-block-search__button-behavior-expand .wp-block-search__inside-wrapper{float:right}
+</style>
+<style id='wp-block-group-inline-css' type='text/css'>
+.wp-block-group{box-sizing:border-box}
+</style>
+<style id='wp-block-separator-inline-css' type='text/css'>
+@charset "UTF-8";.wp-block-separator{border:1px solid;border-left:none;border-right:none}.wp-block-separator.is-style-dots{background:none!important;border:none;height:auto;line-height:1;text-align:center}.wp-block-separator.is-style-dots:before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}
+</style>
+<style id='wp-block-image-inline-css' type='text/css'>
+.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image figcaption{margin-bottom:1em;margin-top:.5em}.wp-block-image .is-style-rounded img,.wp-block-image.is-style-circle-mask img,.wp-block-image.is-style-rounded img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}.wp-block-image :where(.has-border-color){border-style:solid}.wp-block-image :where([style*=border-top-color]){border-top-style:solid}.wp-block-image :where([style*=border-right-color]){border-right-style:solid}.wp-block-image :where([style*=border-bottom-color]){border-bottom-style:solid}.wp-block-image :where([style*=border-left-color]){border-left-style:solid}.wp-block-image :where([style*=border-width]){border-style:solid}.wp-block-image :where([style*=border-top-width]){border-top-style:solid}.wp-block-image :where([style*=border-right-width]){border-right-style:solid}.wp-block-image :where([style*=border-bottom-width]){border-bottom-style:solid}.wp-block-image :where([style*=border-left-width]){border-left-style:solid}.wp-block-image figure{margin:0}.wp-lightbox-container .img-container{position:relative}.wp-lightbox-container button{background:none;border:none;cursor:zoom-in;height:100%;position:absolute;width:100%;z-index:100}.wp-lightbox-container button:focus-visible{outline:5px auto #212121;outline:5px auto -webkit-focus-ring-color;outline-offset:5px}.wp-lightbox-overlay{height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100vw;z-index:100000}.wp-lightbox-overlay .close-button{cursor:pointer;padding:0;position:absolute;right:12.5px;top:12.5px;z-index:5000000}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;height:100%;justify-content:center;position:absolute;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay .wp-block-image img{max-height:100%;max-width:100%;width:auto}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.fade.active{animation:turn-on-visibility .25s both;visibility:visible}.wp-lightbox-overlay.fade.active img{animation:turn-on-visibility .3s both}.wp-lightbox-overlay.fade.hideanimationenabled:not(.active){animation:turn-off-visibility .3s both}.wp-lightbox-overlay.fade.hideanimationenabled:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom img{height:var(--lightbox-image-max-height);position:absolute;transform-origin:top left;width:var(--lightbox-image-max-width)}.wp-lightbox-overlay.zoom.active{opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .wp-block-image img{animation:lightbox-zoom-in .4s forwards}@media (prefers-reduced-motion){.wp-lightbox-overlay.zoom.active .wp-block-image img{animation:turn-on-visibility .4s both}}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) .wp-block-image img{animation:lightbox-zoom-out .4s forwards}@media (prefers-reduced-motion){.wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) .wp-block-image img{animation:turn-off-visibility .4s both}}.wp-lightbox-overlay.zoom.hideanimationenabled:not(.active) .scrim{animation:turn-off-visibility .4s forwards}html.has-lightbox-open{overflow:hidden}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{left:var(--lightbox-initial-left-position);top:var(--lightbox-initial-top-position);transform:scale(var(--lightbox-scale-width),var(--lightbox-scale-height))}to{left:var(--lightbox-target-left-position);top:var(--lightbox-target-top-position);transform:scale(1)}}@keyframes lightbox-zoom-out{0%{left:var(--lightbox-target-left-position);top:var(--lightbox-target-top-position);transform:scale(1);visibility:visible}99%{visibility:visible}to{left:var(--lightbox-initial-left-position);top:var(--lightbox-initial-top-position);transform:scale(var(--lightbox-scale-width),var(--lightbox-scale-height))}}
+</style>
+<style id='wp-block-paragraph-inline-css' type='text/css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}p.has-background{padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}
+</style>
+<style id='wp-block-button-inline-css' type='text/css'>
+.wp-block-button__link{box-sizing:border-box;cursor:pointer;display:inline-block;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}.wp-block-button .wp-block-button__link.is-style-outline,.wp-block-button.is-style-outline>.wp-block-button__link{border:2px solid;padding:.667em 1.333em}.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color),.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color){color:currentColor}.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background),.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background){background-color:transparent;background-image:none}.wp-block-button .wp-block-button__link:where(.has-border-color){border-width:initial}.wp-block-button .wp-block-button__link:where([style*=border-top-color]){border-top-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-right-color]){border-right-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-bottom-color]){border-bottom-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-left-color]){border-left-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-style]){border-width:initial}.wp-block-button .wp-block-button__link:where([style*=border-top-style]){border-top-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-right-style]){border-right-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-bottom-style]){border-bottom-width:medium}.wp-block-button .wp-block-button__link:where([style*=border-left-style]){border-left-width:medium}
+</style>
+<style id='wp-block-buttons-inline-css' type='text/css'>
+.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}
+</style>
+<link rel='stylesheet' id='wp-block-social-links-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/blocks/social-links/style.min.css?ver=6.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/css/dist/block-library/style.min.css?ver=6.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bulb-block-style-css-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/bu-learning-blocks/build/frontend/frontend.css?ver=1658323255' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #ffffff;--wp--preset--color--contrast: #000000;--wp--preset--color--primary: #9DFF20;--wp--preset--color--secondary: #345C00;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);--wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.227), 1.125rem);--wp--preset--font-size--large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.227), 1.875rem);--wp--preset--font-size--x-large: 2.25rem;--wp--preset--font-family--dm-sans: "DM Sans", sans-serif;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);--wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);--wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem);--wp--preset--spacing--60: clamp(3.75rem, 10vw, 7rem);--wp--preset--spacing--70: clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem);--wp--preset--spacing--80: clamp(7rem, 14vw, 11rem);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}body { margin: 0;--wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1200px; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding :where(.has-global-padding) { padding-right: 0; padding-left: 0; }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(.has-global-padding) > .alignfull { margin-right: 0; margin-left: 0; }.has-global-padding > .alignfull:where(:not(.has-global-padding)) > :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding :where(.has-global-padding) > .alignfull:where(:not(.has-global-padding)) > :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) { padding-right: 0; padding-left: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.5rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child:first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child:last-child { margin-block-end: 0; }body { --wp--style--block-gap: 1.5rem; }:where(body .is-layout-flow)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-flow)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-flow)  > *{margin-block-start: 1.5rem;margin-block-end: 0;}:where(body .is-layout-constrained)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-constrained)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-constrained)  > *{margin-block-start: 1.5rem;margin-block-end: 0;}:where(body .is-layout-flex) {gap: 1.5rem;}:where(body .is-layout-grid) {gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{background-color: var(--wp--preset--color--tertiary);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: 1.6;--wp--style--root--padding-top: var(--wp--preset--spacing--40);--wp--style--root--padding-right: var(--wp--preset--spacing--30);--wp--style--root--padding-bottom: var(--wp--preset--spacing--40);--wp--style--root--padding-left: var(--wp--preset--spacing--30);}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: none;}a:where(:not(.wp-element-button)):hover{text-decoration: none;}a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}h1, h2, h3, h4, h5, h6{font-weight: 400;line-height: 1.4;}h1{font-size: clamp(2.032rem, 2.032rem + ((1vw - 0.2rem) * 2.896), 3.625rem);line-height: 1.2;}h2{font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);line-height: 1.2;}h3{font-size: var(--wp--preset--font-size--x-large);}h4{font-size: var(--wp--preset--font-size--large);}h5{font-size: var(--wp--preset--font-size--medium);font-weight: 700;text-transform: uppercase;}h6{font-size: var(--wp--preset--font-size--medium);text-transform: uppercase;}.wp-element-button, .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;border-width: 0;color: var(--wp--preset--color--contrast);font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.wp-element-button:visited, .wp-block-button__link:visited{color: var(--wp--preset--color--contrast);}.wp-element-button:hover, .wp-block-button__link:hover{background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}.wp-element-button:focus, .wp-block-button__link:focus{background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}.wp-element-button:active, .wp-block-button__link:active{background-color: var(--wp--preset--color--secondary);color: var(--wp--preset--color--base);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}
+.wp-block-separator{}.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: 100px}
+</style>
+<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-content-1{flex-basis:90px;}.wp-container-content-2{flex-basis:202px;}.wp-container-content-9{flex-basis:306px;}.wp-container-content-10{flex-basis:0px;}.wp-container-content-20{flex-basis:22px;}.wp-container-21.wp-container-21{justify-content:flex-end;}.wp-container-25.wp-container-25{flex-wrap:nowrap;align-items:flex-start;}.wp-container-27.wp-container-27{flex-wrap:nowrap;flex-direction:column;align-items:flex-start;}.wp-container-31.wp-container-31{flex-wrap:nowrap;gap:0;justify-content:space-between;}.wp-container-77.wp-container-77 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:1000px;margin-left:0 !important;margin-right:auto !important;}.wp-container-77.wp-container-77 > .alignwide{max-width:1000px;}.wp-container-77.wp-container-77 .alignfull{max-width:none;}.wp-container-77.wp-container-77 > .alignfull{margin-right:calc(var(--wp--preset--spacing--30) * -1);margin-left:calc(var(--wp--preset--spacing--30) * -1);}.wp-container-79.wp-container-79{flex-wrap:nowrap;gap:var(--wp--preset--spacing--30);justify-content:center;align-items:flex-start;}.wp-container-5.wp-container-5,.wp-container-6.wp-container-6,.wp-container-7.wp-container-7,.wp-container-11.wp-container-11,.wp-container-12.wp-container-12,.wp-container-13.wp-container-13,.wp-container-15.wp-container-15,.wp-container-24.wp-container-24,.wp-container-33.wp-container-33,.wp-container-34.wp-container-34,.wp-container-45.wp-container-45,.wp-container-48.wp-container-48,.wp-container-49.wp-container-49,.wp-container-60.wp-container-60,.wp-container-63.wp-container-63,.wp-container-64.wp-container-64,.wp-container-75.wp-container-75{flex-wrap:nowrap;}.wp-container-17.wp-container-17 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-container-36.wp-container-36 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-container-51.wp-container-51 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-container-66.wp-container-66 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left:0 !important;}.wp-container-28.wp-container-28 > *,.wp-container-28.wp-container-28.wp-container-28.wp-container-28 > * + *,.wp-container-36.wp-container-36 > *,.wp-container-36.wp-container-36.wp-container-36.wp-container-36 > * + *,.wp-container-51.wp-container-51 > *,.wp-container-51.wp-container-51.wp-container-51.wp-container-51 > * + *,.wp-container-66.wp-container-66 > *,.wp-container-66.wp-container-66.wp-container-66.wp-container-66 > * + *{margin-block-start:0;margin-block-end:0;}.wp-container-37.wp-container-37,.wp-container-44.wp-container-44,.wp-container-52.wp-container-52,.wp-container-59.wp-container-59,.wp-container-67.wp-container-67,.wp-container-74.wp-container-74{flex-wrap:nowrap;gap:0;}.wp-container-40.wp-container-40,.wp-container-55.wp-container-55,.wp-container-70.wp-container-70{flex-wrap:nowrap;gap:3px;}.wp-container-43.wp-container-43,.wp-container-58.wp-container-58,.wp-container-73.wp-container-73{flex-wrap:nowrap;gap:5px;}
+</style>
+<link rel='stylesheet' id='footnotation-styles-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/footnotation/footnotation-styles.css?ver=6.3.3' type='text/css' media='all' />
+<style id='wp-webfonts-inline-css' type='text/css'>
+@font-face{font-family:"DM Sans";font-style:normal;font-weight:400;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"DM Sans";font-style:italic;font-weight:400;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"DM Sans";font-style:normal;font-weight:700;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"DM Sans";font-style:italic;font-weight:700;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:300;font-display:block;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:block;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:italic;font-weight:400;font-display:block;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:700;font-display:block;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:Inter;font-style:normal;font-weight:200 900;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:url('https://commons.mtholyoke.edu/tryasdfeb/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}
+</style>
+<link rel='stylesheet' id='monsterinsights-vue-frontend-style-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/css/frontend.css?ver=8.18' type='text/css' media='all' />
+<link rel='stylesheet' id='h5p-plugin-styles-css' href='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/h5p/h5p-php-library/styles/h5p.css?ver=1.15.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/footnotation/footnotation.js?ver=1.34' id='footnotation_script-js'></script>
+<link rel="https://api.w.org/" href="https://commons.mtholyoke.edu/tryasdfeb/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://commons.mtholyoke.edu/tryasdfeb/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.3" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<style media="print">#wpadminbar { display:none; }</style>
+	<style media="screen">
+	html { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+	}
+</style>
+		<style id="egf-frontend-styles" type="text/css">
+		p {} h1 {} h2 {} h3 {} h4 {} h5 {} h6 {} 	</style>
+	</head>
 
-if (countryCode === 'US') {
-    var profileId = '236-10094-35820459';
-    if (window && window.requestConfig && window.requestConfig.isLoggedIn) {
-        profileId = '237-10097-99AD8E5F';
-    }
-    (function (w, d, s, m, n, t) {
-        (w[m] = w[m] || {
-            init: function () {
-                (w[m].q = w[m].q || []).push(arguments);
-            },
-            ready: function (c) {
-                if ('function' != typeof c) {
-                    return;
-                }
-                (w[m].c = w[m].c || []).push(c);
-                c = w[m].c;
-                n.onload = n.onreadystatechange = function () {
-                    if (!n.readyState || /loaded|complete/.test(n.readyState)) {
-                        n.onload = n.onreadystatechange = null;
-                        if (t.parentNode && n.parentNode) {
-                            t.parentNode.removeChild(n);
-                        }
-                        while (c.length) {
-                            c.shift()();
-                        }
-                    }
-                };
-            },
-        }),
-            (w[m].d = 1 * new Date());
-        n = d.createElement(s);
-        t = d.getElementsByTagName(s)[0];
-        n.async = 1;
-        n.src = 'https://www.medtargetsystem.com/javascript/beacon.js?' + Date.now().toString();
-        n.setAttribute('data-aim', m);
-        t.parentNode.insertBefore(n, t);
-    })(window, document, 'script', 'AIM_236');
 
-    AIM_236.init(profileId);
-}
-</script>
-<link href="https://c5.rgstatic.net/m/42796331518119734/styles/rg.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/m/43919163723106382/styles/rg2.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/m/44258082290542051/styles/rg-nova-legacy.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/m/43686487024283604/styles/icons.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/styles/bundles/common.2cbed9.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/styles/bundles/bootstrap.ac5051.css" type="text/css" rel="stylesheet">
-<script src="https://c5.rgstatic.net/m/4168148719612450/javascript/errorLogging/logger.js" crossorigin="anonymous" async></script>
-    <!-- TradeDoubler site verification 2966599 -->
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <noscript></noscript><meta property="og:title" content="Dr. Zeta&#039;s lab | Meowshacussates Institute of Technology (MIT) (Harvard)">
-<meta property="og:description" content="Principal Investigator: Dr. Zeta | ResearchGate, the professional network for scientists">
-<link href="https://c5.rgstatic.net/styles/bundles/entrypoints/labs/LabDetails.6cd18b.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/styles/bundles/entrypoints/application/HeaderLoggedIn.96d81b.css" type="text/css" rel="stylesheet">
-<link href="https://c5.rgstatic.net/styles/bundles/entrypoints/application/DefaultFooter.8ca55e.css" type="text/css" rel="stylesheet">
-<noscript id="yui_modules_entrypoint"></noscript>
-<title>Dr. Zeta's lab | Meowshacussates Institute of Technology (MIT) (Harvard)</title>
-<meta name="description" content="Principal Investigator: Dr. Zeta | ResearchGate, the professional network for scientists"/>
-<noscript>
-    <img src="https://www.researchgate.net/application.TrackLoading.loggedInHeaderNoScript.html" />
-</noscript></head>
-<body class="brand-refresh logged-in responsive">
-<div id="page-container">
-<div id="rgw8_65f21cbe64bcd" class="react-container"><header class="header-logged-in" data-testid="headerLoggedIn" data-activity-context-position="globalHeader"><a class="header-logged-in__logo" href="https://www.researchgate.net/?ref=logo&amp;_sg=6AmrTtgUrQX8rCXljk23NkbTtyb25ciZ-chXW-1j_ogSfUYGdaHqH9q3t5nfCe7Z8oyHkv29_jGxxpw" aria-label="ResearchGate"><img src="https://c5.rgstatic.net/m/433110575315790/images/template/brand-header-logo.svg" alt="ResearchGate logo" width="124" height="17"/></a><nav class="header-logged-in__nav" aria-label="Main"><ul class="header-logged-in__nav-list"><li class="header-logged-in__nav-item"><a class="header-logged-in__nav-link header-logged-in__nav-link--primary" aria-labelledby="main-nav-home-label" href="/"><svg role="presentation" aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium header-logged-in__nav-item-icon"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#home-s"></use></svg><span class="header-logged-in__nav-label" id="main-nav-home-label">Home</span></a></li><li class="header-logged-in__nav-item"><a class="header-logged-in__nav-link header-logged-in__nav-link--primary" aria-labelledby="main-nav-questions-label" href="https://www.researchgate.net/topics?ev=nav_discussions"><span class="header-logged-in__nav-label" id="main-nav-questions-label">Questions</span></a></li><li class="header-logged-in__nav-item"><a class="header-logged-in__nav-link header-logged-in__nav-link--primary" aria-labelledby="main-nav-jobs-label" href="https://www.researchgate.net/jobs?ev=nav_jobs"><span class="header-logged-in__nav-label" id="main-nav-jobs-label">Jobs</span></a></li><li class="header-logged-in__nav-more"><span><button class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-full nova-legacy-c-button--size-s nova-legacy-c-button--color-black nova-legacy-c-button--theme-bare header-logged-in__nav-link" type="button" aria-label="More" aria-haspopup="true" aria-expanded="false"><span class="nova-legacy-c-button__label">More <svg role="presentation" aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#arrow-down-s"></use></svg></span></button></span></li></ul><div class="header-logged-in__nav-search search-float-center"><form class="header-search" action="search.Search.html" method="get"><div class="header-search__input"><div class="nova-legacy-l-flex__item nova-legacy-l-flex nova-legacy-l-flex--gutter-none nova-legacy-l-flex--direction-row@s-up nova-legacy-l-flex--align-items-center@s-up nova-legacy-l-flex--justify-content-flex-start@s-up nova-legacy-l-flex--wrap-nowrap@s-up nova-legacy-e-input__container nova-legacy-e-input__container--size-s"><div class="nova-legacy-l-flex__item nova-legacy-l-flex__item--grow"><input type="text" placeholder="Search for research, journals, people, etc." name="query" spellcheck="false" autoComplete="off" class="nova-legacy-e-input__field nova-legacy-e-input__field--size-s" value=""/><span class="nova-legacy-e-input__ambient nova-legacy-e-input__ambient--theme-default"></span></div><div class="nova-legacy-l-flex__item nova-legacy-l-flex__item--shrink nova-legacy-e-input__suffix"><button class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-none nova-legacy-c-button--size-s nova-legacy-c-button--color-grey nova-legacy-c-button--theme-bare" type="submit" aria-label="Submit search"><svg aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium nova-legacy-c-button__icon"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#magnifier-s"></use></svg></button></div></div></div><input type="hidden" name="_hsv" value="vYDrRdS0qgxrZ81kgtE9NkFw"/></form></div><ul class="header-logged-in__nav-actions"><li class="header-logged-in__nav-action header-logged-in__nav-action--compact-search"><a href="search.Search.html?ev=nav_search" class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-full nova-legacy-c-button--size-m nova-legacy-c-button--color-grey nova-legacy-c-button--theme-ghost nova-legacy-c-button--width-square header-logged-in__compact-search-button" width="square"><svg aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium nova-legacy-c-button__icon"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#magnifier-s"></use></svg></a></li><li class="header-logged-in__nav-action header-logged-in__nav-action--compact"><span><div><div class="notification-counter"><noscript></noscript><a href="updates" class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-full nova-legacy-c-button--size-m nova-legacy-c-button--color-grey nova-legacy-c-button--theme-ghost nova-legacy-c-button--width-square notification-counter__button" width="square" aria-label="Updates"><svg aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium nova-legacy-c-button__icon notification-counter__icon"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#bell-s"></use></svg></a></div></div></span></li><li class="header-logged-in__nav-action header-logged-in__nav-action--compact"><span><div><div class="notification-counter"><noscript></noscript><a href="messages" class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-full nova-legacy-c-button--size-m nova-legacy-c-button--color-grey nova-legacy-c-button--theme-ghost nova-legacy-c-button--width-square notification-counter__button" width="square" aria-label="Messages"><svg aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium nova-legacy-c-button__icon notification-counter__icon"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#envelope-s"></use></svg></a></div></div></span></li><li class="header-logged-in__nav-action header-logged-in__nav-action--compact-hideable"><span><div><div class="notification-counter"><noscript></noscript><a href="requests" class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-full nova-legacy-c-button--size-m nova-legacy-c-button--color-grey nova-legacy-c-button--theme-ghost nova-legacy-c-button--width-square notification-counter__button" width="square" aria-label="Requests"><svg aria-hidden="true" class="nova-legacy-e-icon nova-legacy-e-icon--size-s nova-legacy-e-icon--theme-bare nova-legacy-e-icon--color-inherit nova-legacy-e-icon--luminosity-medium nova-legacy-c-button__icon notification-counter__icon"><use xlink:href="/m/492447114586776/images/icons/nova/icon-stack-s.svg#speech-bubble-s"></use></svg></a></div></div></span></li><noscript></noscript><li class="header-logged-in__nav-action"><span role="status"><span tabindex="0"></span></span><span><div class="nova-legacy-l-flex__item nova-legacy-l-flex nova-legacy-l-flex--gutter-none nova-legacy-l-flex--direction-row@s-up nova-legacy-l-flex--align-items-center@s-up nova-legacy-l-flex--justify-content-center@s-up nova-legacy-l-flex--wrap-nowrap@s-up" aria-haspopup="true" aria-expanded="false"><div class="nova-legacy-l-flex__item"><a href="https://www.researchgate.net/profile/Lingdang-Zhang?ev=hdr_xprf&amp;_sg=TNjFjoJHp_oq_xbrYvZP_qiJbHX9mZgpKMpCQhVBbnGXE5D9zxcjqx9jgo7pWtxQar3jCGEMCq3ApPxTnP6uyWWq" class="header-logged-in__nav-profile" aria-label="Profile"><img src="https://c5.rgstatic.net/m/4671872220764/images/template/default/profile/profile_default_m.jpg" srcSet="https://c5.rgstatic.net/m/4671872220764/images/template/default/profile/profile_default_m.jpg 1x, https://c5.rgstatic.net/m/437738464651637/images/template/default/profile/profile_default_l.jpg 2x" alt="Lingdang" width="40" height="40" style="border-radius:50%"/></a></div></div></span></li><li class="header-logged-in__nav-action header-logged-in__nav-action--mup"><div class="content-creation-button-wrapper"><button class="nova-legacy-c-button nova-legacy-c-button--align-center nova-legacy-c-button--radius-full nova-legacy-c-button--size-s nova-legacy-c-button--color-blue nova-legacy-c-button--theme-solid content-creation-button" type="button" data-testid="contentCreationButton"><span class="nova-legacy-c-button__label">Add new</span></button></div></li></ul></nav></header></div><div id="rgw11_65f21cbe64bcd" class="react-container"></div><div id="main" class="is-responsive">
-<div id="content" class="">
+<div class="wp-site-blocks">
+<div class="wp-block-group has-base-background-color has-background is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0">
+<div class="wp-block-group has-source-serif-pro-font-family is-nowrap is-layout-flex wp-container-5 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<h2 class="wp-block-heading">ResearchCats</h2>
 
-<div id="rgw1_65f21cbe64bcd" class="react-container"><div class="lab-details"><script type="application/ld+json">{
-    "@context": "http:\/\/schema.org",
-    "@type": "Organization",
-    "name": "Dr. Zeta's Lab",
-    "url": "zetaslab.com"
-}
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-        (!window.canAskForCookieConsent || !window.canAskForCookieConsent()) && window.loadDeferredObjects && window.loadDeferredObjects();
-</script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">if (window.requestConfig) { requestConfig.backendTime = 274; }</script>
-<script src="https://c5.rgstatic.net/m/442808549102517/javascript/vendor/lscache/lscache.min.js" crossorigin="anonymous" defer></script>
-<script src="https://c5.rgstatic.net/m/413531562087999/javascript/min/extensions/Hogan.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/javascript/modern/polyfill.7ab985.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/m/494411657088535/javascript/lib/yui3/yui/yui-min.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/m/44248183402107758/javascript/yuiLoaderConfig-min.js" crossorigin="anonymous" defer></script>
-<script src="https://c5.rgstatic.net/javascript/bundles/runtime.3a25c8.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/javascript/bundles/common_rg.8ff64d.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/javascript/bundles/common_vendor.390512.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/javascript/bundles/common.2cbed9.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/javascript/bundles/bootstrap.ac5051.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script src="https://c5.rgstatic.net/m/4171039190216056/javascript/min/core/widgetLoader.js" crossorigin="anonymous" onerror="window.rgCriticalScriptFailure = true" defer></script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">(function () {
-if (document.cookie.indexOf('ga_opt_out') !== -1) {
-    window['ga-disable-UA-58591210-1'] = true;
-    window['ga-disable-G-4P31SJ70EJ'] = true;
-}
-})();</script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-(function () {
-    var script = document.createElement('script');
-    script.async = 1;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-4P31SJ70EJ';
-    var referenceNode = document.getElementsByTagName('script')[0];
-    referenceNode.parentNode.insertBefore(script, referenceNode);
-})();
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-var additionalConfig = {"anonymize_ip":true,"user_id":"zrxOKOg8whQyIeZQ6Ug4X0b0hiV2r6X6mqFY","dimension1":"n\/a","dimension3":"Logged in","dimension4":"not lite-page","dimension6":"Biology","dimension7":"Cancer_Research","dimension8":"Biology Medicine","dimension9":"Cancer_Research Cell_Biology Molecular_Biology","dimension14":"retired","dimension17":"no"};
-additionalConfig["dimension19"] = (typeof requestCachedConfig!==typeof undefined&&requestCachedConfig.isCachedPage===true) ? "cache" : "no cache";
-gtag('config', 'G-4P31SJ70EJ', additionalConfig);
-</script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,"script","https://www.google-analytics.com/analytics.js","ga");
-ga("create","UA-58591210-1"); ga("set","anonymizeIp",true); ga("set", "dimension1", "n\/a");ga("set", "dimension3", "Logged in");ga("set", "dimension4", "not lite-page");ga("set", "dimension6", "Biology");ga("set", "dimension7", "Cancer_Research");ga("set", "dimension8", "Biology Medicine");ga("set", "dimension9", "Cancer_Research Cell_Biology Molecular_Biology");ga("set", "dimension14", "retired");ga("set", "dimension17", "no");(typeof requestCachedConfig!==typeof undefined&&requestCachedConfig.isCachedPage===true)?ga("set", "dimension19", "cache"):ga("set", "dimension19", "no cache");ga("set","userId","zrxOKOg8whQyIeZQ6Ug4X0b0hiV2r6X6mqFY"); ga("send","pageview");</script>
-<script>window.postHogInstanceCallbacks=[];window.getPostHogInstance=function(cb){window.postHogInstanceCallbacks.push(cb);};window.postHogFeatureFlags = {"test-ftx-home-rollout":false,"enable-session-recording":false,"survey-targeting-journal-profile-questionnaire-feb-2024":false,"mobile-enable-consent-collection":true,"ftx-frontend-social-similar-publication-recommender":"social","gb-pdp-improved-journal-representation":"journal-representation-improvements","mobile-research-digest-push-notification-copy":false,"yaro-test-prod-01":false,"app-saved-list":"control","rob-test-feature":false};!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).t
-        ype="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-posthog.init('phc_ma1XTQyee96N1GML6qUTgLQRiDifnRcE9STiHTZ0CfZ', {
-    persistence: "localStorage+cookie",
-    opt_out_capturing_by_default: true,
-    opt_out_capturing_persistence_type: "cookie",
-    api_host: 'https://a.researchgate.net',
-    bootstrap: {
-        distinctID: 'AC:43822493',
-        featureFlags: window.postHogFeatureFlags,
-        featureFlagPayloads: window.postHogFeatureFlagPayloads
-    },
-    loaded: function(posthog) {
-        for(var i=0;i<window.postHogInstanceCallbacks.length;i++) {
-            window.postHogInstanceCallbacks[i](posthog);
-        }
-        window.postHogInstanceCallbacks=[];
-        window.getPostHogInstance=function(cb) {
-            cb(posthog);
-        }
-    }
-})
-window.enablePostHogFeaturesAfterUserConsent = function () {
-    posthog.identify('AC:43822493', {
-        account_id: 'AC:43822493'
-    });
-    posthog.register({
-        'metadata.sessionId': 'ky0d8XcIUlAbGlSLGBBCzwcu2ctTB7wIT4x4ii1fnDlh03tz8tzwcSpxBglfDYgQGEgQOuaJEkRK3bB90nCx7Z5A20NiMzZXUIyeRx5SJFtNTwCsDVk1tqWY5aDG7DZr',
-        'metadata.deviceId': 'qnM1vicvwWI2wv0Qjeee7vMxvbqcvUCpe4UOZhqKaoyEXJI4cuqMGeKR7FFHWLGW',
-        'metadata.backend': 'community'
-    });
-    posthog.opt_in_capturing();
-}
-</script><script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-document.addEventListener('DOMContentLoaded', function() {
-if (typeof YRG !== 'undefined') return;
-var xhr = new XMLHttpRequest();
-xhr.open('POST', 'go.Error.html');
-xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-var ls = '';
-if (window.performance && window.performance.getEntriesByType) {
-    var result = [];
-    performance.getEntriesByType('resource').forEach(function (r) {
-        result.push({ name: r.name, duration: r.duration });
-    });
-    ls += '&loadedScripts=' + encodeURIComponent(JSON.stringify(result));
-}
-ls += '&yuiLoaded=' + (typeof YUI === 'undefined' ? 'false' : 'true');
-xhr.send('Type=JavascriptException&message=' + encodeURIComponent('Error loading YUI') + '&Request=' + encodeURIComponent(window.location.href) + ls);
-});
-</script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-document.addEventListener('DOMContentLoaded', function() {
-if(typeof YRG==='undefined')throw 'YRG was not loaded when attaching widgets';YRG.use('rg-base',function(Y){Y.applyConfig({ignore:["wcss-styles-bundles-common.2cbed9","wcss-styles-bundles-bootstrap.ac5051","css-rg","css-rg2","css-rg-nova-legacy","css-icons","wcss-styles-bundles-entrypoints-labs-LabDetails.6cd18b","wcss-styles-bundles-entrypoints-application-HeaderLoggedIn.96d81b","wcss-styles-bundles-entrypoints-application-DefaultFooter.8ca55e"]});Y.use([],function(Y){(function(){widgetLoader.createInitialWidget({"data":{"labName":"Dr. Zeta's Lab","labDetailsAbout":{"data":{"aboutImages":[],"canUpdate":false,"description":null,"imageExtensions":["gif","png","jpg","jpeg","tif","tiff","bmp"],"labId":"5d8df4f3f8ea524f4173fcb6","descriptionMaxLength":800},"templateName":"labs\/LabDetailsAbout","id":"rgw2_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabDetailsAbout.html?labId=5d8df4f3f8ea524f4173fcb6","_isReact":true},"labDetailsPublications":{"data":{"canUpdate":false,"labId":"5d8df4f3f8ea524f4173fcb6","publicationCount":1,"publicationItems":[{"componentName":"PublicationItem","publicationUid":354711254,"title":"Neuromuscular connectomes across development reveal synaptic ordering rules","urls":{"CTA":"publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules?_sg=RBy6GXY6denGEpIoHQAgdlvDW70_FD7T2rrCksbvUvONuxIe2PZj7j86XkpLybY93vUg3pQAXsnnR3J0EtFMkpF6K64","title":"publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules?_sg=RBy6GXY6denGEpIoHQAgdlvDW70_FD7T2rrCksbvUvONuxIe2PZj7j86XkpLybY93vUg3pQAXsnnR3J0EtFMkpF6K64","readsCount":"publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules?opdsd=1","citationsCount":"publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules?opdsd=1","preview":"publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules?_sg=RBy6GXY6denGEpIoHQAgdlvDW70_FD7T2rrCksbvUvONuxIe2PZj7j86XkpLybY93vUg3pQAXsnnR3J0EtFMkpF6K64","bareRootUrl":"https:\/\/www.researchgate.net\/publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules?_sg=RBy6GXY6denGEpIoHQAgdlvDW70_FD7T2rrCksbvUvONuxIe2PZj7j86XkpLybY93vUg3pQAXsnnR3J0EtFMkpF6K64","download":"publication\/354711254_Neuromuscular_connectomes_across_development_reveal_synaptic_ordering_rules\/fulltext\/61494ab1a595d06017dd3936\/Neuromuscular-connectomes-across-development-reveal-synaptic-ordering-rules.pdf"},"type":"Preprint","metaItems":[{"label":"Sep 2021"}],"fullTextAvailable":"File available","socialContextData":null}],"milestones":{"editPublicationsModalSeen":"4Pbny8qzr1IiD9Ip-b3SZfyA_rNzjSyglaSQ512JE5JZB8Xru2Kwk58UGok-rnO8x_g-tahLyYfR0BmUoPUBzjmOsD5nTL8"},"limit":5,"isLoggedIn":true},"templateName":"labs\/LabDetailsPublications","id":"rgw3_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabDetailsPublications.html?labId=5d8df4f3f8ea524f4173fcb6","_isReact":true},"labDetailsAlumni":{"data":{"milestones":{"clickToProfile":"y9TbUnDrhM4z9MB8tlT2yKcUf6xJgMYjotxQJahh0Pg98yBd1GvsqJSzelIjnMwqiJ9TYq3QDEbo1y2yOuEzLDUmwBAH7g"},"invitationContext":"labDetailsAlumni","followContext":"labsAlumni","labId":"LB:5d8df4f3f8ea524f4173fcb6"},"templateName":"labs\/LabDetailsAlumni","id":"rgw4_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabDetailsAlumni.html?labId=5d8df4f3f8ea524f4173fcb6","_isReact":true},"labDetailsMembers":{"data":{"labId":"LB:5d8df4f3f8ea524f4173fcb6"},"templateName":"labs\/LabDetailsMembers","id":"rgw5_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabDetailsMembers.html?labId=5d8df4f3f8ea524f4173fcb6","_isReact":true},"labDetailsHeader":{"data":{"labName":"Dr. Zeta's Lab","labId":"LB:5d8df4f3f8ea524f4173fcb6","institution":{"name":"Meowshacussates Institute of Technology (MIT)","url":"institution\/Harvard_University"},"department":{"name":"Department of Paws","url":"institution\/Harvard_University\/department\/Department_of_Molecular_and_Cell_Biology"},"isAccountLabMember":false,"isLabHead":false,"memberCount":7,"milestones":{"addMembersModalFromHeaderSeen":"eOPRPtXfKdpNbS1GsltkeaoqtlhH-PzLAVmzRhgcumIXCKpK5A02g2XzGM6idMZHV_Whiy2gOT4NHQpn4xze1lOmOcPTWMnOGT89F_cZtg","editProjectsModalSeen":"19t2W1lZNHR9DbG4OTY9iP3mQ1uUmUAl2PzvE4C96-d9Nl4i0il_PVz-OVwD8tSsQ73uIUowuHQOebwe2Fx-pnGgIE8y03Q","editPublicationsModalSeen":"ZUlteTi45mLZONlZoNJAVRvcs4I9NCNojYjOx12uiRWh8sGhDoNH0Db80aZm2xdVJZbyOBMw5re3VqlPnthTCR9M6diW6T3j8GjI"},"labAdminUrl":"lab\/Jeff-Lichtman-Lab-2\/admin","isAdmin":false,"entryChannel":"labDetailHeader","canDeleteLab":false,"labNavigation":{"data":{"navigationItems":[{"name":"Overview","url":"lab\/Jeff-Lichtman-Lab-2"}],"selectedItem":"Overview"},"templateName":"labs\/LabNavigation","id":"rgw7_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabNavigation.html?labId=5d8df4f3f8ea524f4173fcb6","_isReact":true},"canEditLabLead":false},"templateName":"labs\/LabDetailsHeader","id":"rgw6_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabDetailsHeader.html?labId=5d8df4f3f8ea524f4173fcb6","_isReact":true},"leadFollowContext":"lab_details_lead_widget","labLeadMemberRgKey":"LBM:5d8df4f3f8ea524f4173fcb7","milestones":{"clickToProfile":"cfL7r4WEY0ZCRki2PQtggGvEPzAl8M4Kltw424mEW3hoJRz023803QrIdp9a-pJk8HLsbIs1ZvRzrKGuS_z85w","clickToLabMembersProfile":"xIH7LkmT0KSYUGJULsLpvoUf3wkaDajnfryqmI8rrPKCeu0umcaZw7Xb4aoCz8DB1-VdPDX32Xd-bHl4j3OsA37Z_BhypVCDpWo","clickToAuthor":"IdX5bHhTL3toxoj-TAWxJ9QKnnSXe98tQFoFvgCxLi0lZjgB6kIWZf6SRtjHSKcxk76DX7xUpfwqZOdOnBib","clickToFollow":"hg8hhfi4RiUlYqHmORsxB9gxGhCV6w-QT0yb6qQ0M9a8uS45mCPbmN9FRDXb8XJUMuHCOOAciR72h7_t5xnZ","clickToFollowLabHead":"labDetailsClickToFollowLabHead","clickInviteMember":"0u12UAXyIxmkWP2UlWBoarI8tFu6P_nG1Wa0-FtezScyvzY7Rv11WQWzyt683ZZYLdYcVCnUAOS5h01rSjBKceIIviHM"},"labMembersPromo":null,"isLabHead":false,"labDetailsMembersChannel":"labDetailsMembers","createLabStickyPromo":null,"inviteMember":null,"isLoggedIn":true,"partOfAnotherLab":null,"labJoined":null,"labAddMembersPromo":null,"microData":"{\n    \"@context\": \"http:\\\/\\\/schema.org\",\n    \"@type\": \"Organization\",\n    \"name\": \"Dr. Zeta's Lab\",\n    \"url\": \"lab\\\/Jeff-Lichtman-Lab-2\"\n}","jobDashboardUrl":"jobs\/dashboard\/welcome?source=labDetailPromo","trackSignInOnLoggedOutPages":false,"labId":"LB:5d8df4f3f8ea524f4173fcb6"},"templateName":"labs\/LabDetails","id":"rgw1_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/labs.LabDetails.html?labUrlKey=Jeff-Lichtman-Lab-2","webpackEntryFile":"javascript\/bundles\/entrypoints\/labs\/LabDetails.6cd18b.js","yuiModules":["wcss-styles-bundles-common.2cbed9","wcss-styles-bundles-entrypoints-labs-LabDetails.6cd18b"],"_isReact":true,"_platformFeatures":{"nova":{"UseNovaRefresh":true},"rigel":{"useRigelForgeryOverlay":false},"react":{"propTypesStrictMode":false}},"_postHogFeatureFlags":{"test-ftx-home-rollout":false,"enable-session-recording":false,"survey-targeting-journal-profile-questionnaire-feb-2024":false,"mobile-enable-consent-collection":true,"ftx-frontend-social-similar-publication-recommender":"social","gb-pdp-improved-journal-representation":"journal-representation-improvements","mobile-research-digest-push-notification-copy":false,"yaro-test-prod-01":false,"app-saved-list":"control","rob-test-feature":false},"initState":{"questionnaireQuestionnaire":{"activeTriggers":{"view.page.HomeFeed":true,"view.page.PublicationDetail":true,"view.page.Profile":true,"view.page.ProfileStats":true,"view.page.PostDetail":true}},"experimentsRunningExperiments":{"experiments":{"Lab Details":{"Lab Details":{"name":"Lab Details","viewId":"Lab Details","variant":"nonMember (i1 v1)"}},"Lab Details Members List":{"Lab Details Members List":{"name":"Lab Details Members List","viewId":"Lab Details Members List","variant":"notOwnLab (i3 v1)"}}}},"accountsGlobalAccounts":{"10921878":{"accountId":10921878,"accountKey":"Jeff-Lichtman","firstName":"Jeff","fullName":"Dr. Zeta","isActive":true,"type":"scientist","accountURL":"profile\/Jeff-Lichtman","urls":{"details":"profile\/Jeff-Lichtman","stats":"profile\/Jeff-Lichtman\/stats","reputation":"profile\/Jeff-Lichtman\/scores"},"profile":{"professionalInstitution":"Meowshacussates Institute of Technology (MIT)","professionalInstitutionUrl":null,"professionalDepartment":"Department of Paws","imageURL":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/355404170186765-1461746365754_Q64\/Jeff-Lichtman.jpg","imageURL2x":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/355404170186765-1461746365754_Q128\/Jeff-Lichtman.jpg","isProfilePictureAvailable":true,"professionalCountry":"United States","professionalCountryArticlized":"the United States"},"reputation":{"score":null},"isFollowedByCurrentUser":false,"canBeFollowed":true}},"likesLikes":{"PB:354711254":{"liked":false,"total":0,"accountIds":[]}},"rigel":{"optimisticUpdates":[],"store":{"lab(id:\"LB:5d8df4f3f8ea524f4173fcb6\")":{"id":"LB:5d8df4f3f8ea524f4173fcb6","hasPermissionToUpdate":false,"isAlumni":false,"alumni":[],"__typename":"Lab","members":[{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")"},{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb8\")"},{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb9\")"},{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcba\")"},{"__ref__":"labMember(id:\"LBM:607eeae2a0d789223d365310\")"},{"__ref__":"labMember(id:\"LBM:61514b434de710419b29a6ff\")"},{"__ref__":"labMember(id:\"LBM:61514b434de710419b29a700\")"}],"isMember":false,"hasPermissionToEditLabLead":false,"labLead":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")"}},"node(id:\"LB:5d8df4f3f8ea524f4173fcb6\")":{"__ref__":"lab(id:\"LB:5d8df4f3f8ea524f4173fcb6\")"},"__typename":"RootQueryType","labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")":{"id":"LBM:5d8df4f3f8ea524f4173fcb7","role":"lead","personName":null,"account":{"__ref__":"account(id:\"AC:10921878\")"},"author":null,"__typename":"LabMember"},"node(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")"},"person(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb7\")"},"account(id:\"AC:10921878\")":{"id":"AC:10921878","fullName":"Dr. Zeta","image":{"url":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/355404170186765-1461746365754_Q64\/Jeff-Lichtman.jpg","__typename":"AccountImage"},"url":"profile\/Jeff-Lichtman","hasPermissionToFollow":true,"isFollowing":false,"profile":{"affiliation":{"institution":{"name":"Meowshacussates Institute of Technology (MIT)","__typename":"Institution"},"positionNewNew":{"profilePosition":null,"__typename":"ProfilePositionNew"},"__typename":"ProfileAffiliation","departmentNew":{"name":"Department of Paws","__typename":"Department"}},"__typename":"Profile","aboutMe":"","badges":[]},"authorStats":{"publicationCount":326,"__typename":"AuthorStats"},"__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"node(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"person(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"authorStatsTopCoAuthors(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"coAuthor(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"publicationLegalInformation(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"maybeAnonymousPerson(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"profileStatsReadBreakdownEntity(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"successStoryTarget(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"ftxRecommendationActor(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"peopleSearchResults(id:\"AC:10921878\")":{"__ref__":"account(id:\"AC:10921878\")"},"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb8\")":{"id":"LBM:5d8df4f3f8ea524f4173fcb8","role":"member","personName":null,"account":{"__ref__":"account(id:\"AC:7927655\")"},"author":null,"__typename":"LabMember"},"node(id:\"LBM:5d8df4f3f8ea524f4173fcb8\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb8\")"},"person(id:\"LBM:5d8df4f3f8ea524f4173fcb8\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb8\")"},"account(id:\"AC:7927655\")":{"id":"AC:7927655","fullName":"Yaron Meirovitch","image":{"url":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/378175424090113-1467175455537_Q64\/Yaron-Meirovitch.jpg","__typename":"AccountImage"},"url":"profile\/Yaron-Meirovitch","hasPermissionToFollow":true,"isFollowing":false,"profile":{"affiliation":{"institution":{"name":"Meowshacussates Institute of Technology (MIT)","__typename":"Institution"},"positionNewNew":{"profilePosition":null,"__typename":"ProfilePositionNew"},"__typename":"ProfileAffiliation"},"__typename":"Profile"},"authorStats":{"publicationCount":41,"__typename":"AuthorStats"},"__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"node(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"person(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"authorStatsTopCoAuthors(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"coAuthor(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"publicationLegalInformation(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"maybeAnonymousPerson(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"profileStatsReadBreakdownEntity(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"successStoryTarget(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"ftxRecommendationActor(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"peopleSearchResults(id:\"AC:7927655\")":{"__ref__":"account(id:\"AC:7927655\")"},"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb9\")":{"id":"LBM:5d8df4f3f8ea524f4173fcb9","role":"member","personName":null,"account":null,"author":{"__ref__":"author(id:\"AU:2160260198\")"},"__typename":"LabMember"},"node(id:\"LBM:5d8df4f3f8ea524f4173fcb9\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb9\")"},"person(id:\"LBM:5d8df4f3f8ea524f4173fcb9\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcb9\")"},"author(id:\"AU:2160260198\")":{"id":"AU:2160260198","fullName":"Steve Turney","imageUrl":"https:\/\/c5.rgstatic.net\/m\/435982309481010\/images\/template\/default\/author\/author_default_m.jpg","url":"scientific-contributions\/Steve-Turney-2160260198","hasInvitedAuthor":false,"authorStats":{"publicationCount":2,"__typename":"AuthorStats"},"__typename":"Author"},"accountPeopleMappingTarget(id:\"AU:2160260198\")":{"__ref__":"author(id:\"AU:2160260198\")"},"node(id:\"AU:2160260198\")":{"__ref__":"author(id:\"AU:2160260198\")"},"person(id:\"AU:2160260198\")":{"__ref__":"author(id:\"AU:2160260198\")"},"authorStatsTopCoAuthors(id:\"AU:2160260198\")":{"__ref__":"author(id:\"AU:2160260198\")"},"coAuthor(id:\"AU:2160260198\")":{"__ref__":"author(id:\"AU:2160260198\")"},"peopleSearchResults(id:\"AU:2160260198\")":{"__ref__":"author(id:\"AU:2160260198\")"},"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcba\")":{"id":"LBM:5d8df4f3f8ea524f4173fcba","role":"member","personName":null,"account":{"__ref__":"account(id:\"AC:3239937\")"},"author":null,"__typename":"LabMember"},"node(id:\"LBM:5d8df4f3f8ea524f4173fcba\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcba\")"},"person(id:\"LBM:5d8df4f3f8ea524f4173fcba\")":{"__ref__":"labMember(id:\"LBM:5d8df4f3f8ea524f4173fcba\")"},"account(id:\"AC:3239937\")":{"id":"AC:3239937","fullName":"Daniel R. Berger","image":{"url":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/272798144790542-1442051554531_Q64\/Daniel-Berger-11.jpg","__typename":"AccountImage"},"url":"profile\/Daniel-Berger-11","hasPermissionToFollow":true,"isFollowing":false,"profile":{"affiliation":{"institution":{"name":"Meowshacussates Institute of Technology (MIT)","__typename":"Institution"},"positionNewNew":{"profilePosition":"Post-Doc","__typename":"ProfilePositionNew"},"__typename":"ProfileAffiliation"},"__typename":"Profile"},"authorStats":{"publicationCount":52,"__typename":"AuthorStats"},"__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"node(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"person(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"authorStatsTopCoAuthors(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"coAuthor(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"publicationLegalInformation(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"maybeAnonymousPerson(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"profileStatsReadBreakdownEntity(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"successStoryTarget(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"ftxRecommendationActor(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"peopleSearchResults(id:\"AC:3239937\")":{"__ref__":"account(id:\"AC:3239937\")"},"labMember(id:\"LBM:607eeae2a0d789223d365310\")":{"id":"LBM:607eeae2a0d789223d365310","role":"member","personName":null,"account":{"__ref__":"account(id:\"AC:32305399\")"},"author":null,"__typename":"LabMember"},"node(id:\"LBM:607eeae2a0d789223d365310\")":{"__ref__":"labMember(id:\"LBM:607eeae2a0d789223d365310\")"},"person(id:\"LBM:607eeae2a0d789223d365310\")":{"__ref__":"labMember(id:\"LBM:607eeae2a0d789223d365310\")"},"account(id:\"AC:32305399\")":{"id":"AC:32305399","fullName":"Fuming Yang","image":{"url":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/1014188226920450-1618812724251_Q64\/Fuming-Yang-6.jpg","__typename":"AccountImage"},"url":"profile\/Fuming-Yang-6","hasPermissionToFollow":true,"isFollowing":false,"profile":{"affiliation":{"institution":{"name":"Meowshacussates Institute of Technology (MIT)","__typename":"Institution"},"positionNewNew":{"profilePosition":null,"__typename":"ProfilePositionNew"},"__typename":"ProfileAffiliation"},"__typename":"Profile"},"authorStats":{"publicationCount":8,"__typename":"AuthorStats"},"__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"node(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"person(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"authorStatsTopCoAuthors(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"coAuthor(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"publicationLegalInformation(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"maybeAnonymousPerson(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"profileStatsReadBreakdownEntity(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"successStoryTarget(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"ftxRecommendationActor(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"peopleSearchResults(id:\"AC:32305399\")":{"__ref__":"account(id:\"AC:32305399\")"},"labMember(id:\"LBM:61514b434de710419b29a6ff\")":{"id":"LBM:61514b434de710419b29a6ff","role":"member","personName":null,"account":null,"author":{"__ref__":"author(id:\"AU:2201471957\")"},"__typename":"LabMember"},"node(id:\"LBM:61514b434de710419b29a6ff\")":{"__ref__":"labMember(id:\"LBM:61514b434de710419b29a6ff\")"},"person(id:\"LBM:61514b434de710419b29a6ff\")":{"__ref__":"labMember(id:\"LBM:61514b434de710419b29a6ff\")"},"author(id:\"AU:2201471957\")":{"id":"AU:2201471957","fullName":"Elisa Catherine Pavarino","imageUrl":"https:\/\/c5.rgstatic.net\/m\/435982309481010\/images\/template\/default\/author\/author_default_m.jpg","url":"scientific-contributions\/Elisa-Catherine-Pavarino-2232493692","hasInvitedAuthor":false,"authorStats":{"publicationCount":10,"__typename":"AuthorStats"},"__typename":"Author"},"accountPeopleMappingTarget(id:\"AU:2201471957\")":{"__ref__":"author(id:\"AU:2201471957\")"},"node(id:\"AU:2201471957\")":{"__ref__":"author(id:\"AU:2201471957\")"},"person(id:\"AU:2201471957\")":{"__ref__":"author(id:\"AU:2201471957\")"},"authorStatsTopCoAuthors(id:\"AU:2201471957\")":{"__ref__":"author(id:\"AU:2201471957\")"},"coAuthor(id:\"AU:2201471957\")":{"__ref__":"author(id:\"AU:2201471957\")"},"peopleSearchResults(id:\"AU:2201471957\")":{"__ref__":"author(id:\"AU:2201471957\")"},"labMember(id:\"LBM:61514b434de710419b29a700\")":{"id":"LBM:61514b434de710419b29a700","role":"member","personName":null,"account":{"__ref__":"account(id:\"AC:1991018\")"},"author":null,"__typename":"LabMember"},"node(id:\"LBM:61514b434de710419b29a700\")":{"__ref__":"labMember(id:\"LBM:61514b434de710419b29a700\")"},"person(id:\"LBM:61514b434de710419b29a700\")":{"__ref__":"labMember(id:\"LBM:61514b434de710419b29a700\")"},"account(id:\"AC:1991018\")":{"id":"AC:1991018","fullName":"Stephen G Turney","image":{"url":"https:\/\/i1.rgstatic.net\/ii\/profile.image\/272468980006944-1441973075895_Q64\/Stephen-Turney.jpg","__typename":"AccountImage"},"url":"profile\/Stephen-Turney","hasPermissionToFollow":true,"isFollowing":false,"profile":{"affiliation":{"institution":{"name":"Meowshacussates Institute of Technology (MIT)","__typename":"Institution"},"positionNewNew":{"profilePosition":null,"__typename":"ProfilePositionNew"},"__typename":"ProfileAffiliation"},"__typename":"Profile"},"authorStats":{"publicationCount":20,"__typename":"AuthorStats"},"__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"node(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"person(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"authorStatsTopCoAuthors(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"coAuthor(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"publicationLegalInformation(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"maybeAnonymousPerson(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"profileStatsReadBreakdownEntity(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"successStoryTarget(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"ftxRecommendationActor(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"peopleSearchResults(id:\"AC:1991018\")":{"__ref__":"account(id:\"AC:1991018\")"},"account(id:\"AC:43822493\")":{"id":"AC:43822493","flags":{"isLabDetailPostJobPromoHidden":null,"__typename":"AccountFlags"},"__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"node(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"person(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"authorStatsTopCoAuthors(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"coAuthor(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"publicationLegalInformation(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"maybeAnonymousPerson(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"profileStatsReadBreakdownEntity(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"successStoryTarget(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"ftxRecommendationActor(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"peopleSearchResults(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"viewer":{"account":{"__ref__":"account(id:\"AC:43822493\")"},"__typename":"Viewer"},"urlGenerator":{"signUp":"signup.SignUp.html","__typename":"UrlGenerator"}}},"environment":{"isAccountLoggedIn":true,"isMobile":false,"profileImageFallback":"https:\/\/c5.rgstatic.net\/m\/437738464651637\/images\/template\/default\/profile\/profile_default_l.jpg"}},"isMainEntry":true});})();
-(function(){widgetLoader.createInitialWidget({"data":{"isBusinessAccount":false,"accountRgKey":"AC:43822493","fullName":"Lingdang Zhang","searchUrl":"search.Search.ajaxSearch.html","brandUrl":"https:\/\/www.researchgate.net\/?ref=logo&_sg=6AmrTtgUrQX8rCXljk23NkbTtyb25ciZ-chXW-1j_ogSfUYGdaHqH9q3t5nfCe7Z8oyHkv29_jGxxpw","contentCreationButton":{"data":{"milestoneSidebarOpenedParams":"wyfqUZS0AUlIuWU1NJd2LSOXxzk25RoW_F4h4lujZWh-xvO71zLRqQoEKKjqvJHPeQaE6b4QpX3YmNhuN2OSYvF3u2IC-VDx_TYO7A","origin":null,"payload":null,"viewId":"OHhdfHysqe7VFauigfS2L8Lu","startExperimentUrl":"https:\/\/www.researchgate.net\/application.ContentCreationButton.startExperiment.html","showUnclaimedCounter":true,"unclaimedUrl":"application.GlobalSidebar.getUnclaimedItem.html?source=rg%5Cmodules%5Capplication%5Cactions%5CContentCreationButton","hideUnclaimedCounterUrl":"application.ContentCreationButton.hideUnclaimedCounter.html"},"templateName":"application\/ContentCreationButton","id":"rgw9_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/application.ContentCreationButton.html","_isReact":true},"mainLinks":[{"title":"Home","dropdown":false,"url":"\/","isActive":false,"updatedFeedAvailableIndicator":null,"icon":"home"},{"title":"Questions","url":"https:\/\/www.researchgate.net\/topics?ev=nav_discussions","isActive":false},{"title":"Jobs","url":"https:\/\/www.researchgate.net\/jobs?ev=nav_jobs","isActive":false}],"profileInfo":{"imageUrl":"https:\/\/c5.rgstatic.net\/m\/4671872220764\/images\/template\/default\/profile\/profile_default_m.jpg","imageUrl2x":"https:\/\/c5.rgstatic.net\/m\/437738464651637\/images\/template\/default\/profile\/profile_default_l.jpg","url":"https:\/\/www.researchgate.net\/profile\/Lingdang-Zhang?ev=hdr_xprf&_sg=TNjFjoJHp_oq_xbrYvZP_qiJbHX9mZgpKMpCQhVBbnGXE5D9zxcjqx9jgo7pWtxQar3jCGEMCq3ApPxTnP6uyWWq","firstName":"Lingdang"},"profileLinks":[{"url":"https:\/\/www.researchgate.net\/profile\/Lingdang-Zhang?ev=hdr_xprf","title":"Your profile","isActive":false},{"url":"https:\/\/www.researchgate.net\/profile\/Lingdang-Zhang\/savedlist?_ec=glb_nv","title":"Your Saved List","isActive":false},{"divider":true},{"url":"https:\/\/www.researchgate.net\/requests","isActive":false,"title":"Requests","onlyMobile":true},{"url":"https:\/\/www.researchgate.net\/settings\/account?_sg=idCJZWJsScIDn2Rb3DyH0hmTtOasFpZ-DhL0ik82WRE3CWccpIJ5sMwBmPd2kxeTJiRwc24IJCPKBHwmXZDk","title":"Settings","isActive":false},{"url":"deref\/https%3A%2F%2Fexplore.researchgate.net?forcePage=false&_sg=tGtqU4QGrJ_BcUI2JJLu_y4Mo25ShLaCIOKr0j42A6-sChifunuxSJn8Qf3TJ_1j0ksu-2BXGaVBtB8","title":"Help center"}],"linkCreatedTime":1710365886,"isBasicHeader":false,"searchFormUrl":"search.Search.html","viewId":"vYDrRdS0qgxrZ81kgtE9NkFw","dropdownLinks":[{"title":"Questions","url":"https:\/\/www.researchgate.net\/topics?ev=nav_discussions","isActive":false},{"title":"Jobs","url":"https:\/\/www.researchgate.net\/jobs?ev=nav_jobs","isActive":false}],"notificationURLs":{"updates":"updates","messages":"messages","requests":"requests"},"milestones":{"notificationDropdown":"Ow05rT5HgEuROqZbQk3wQKdh6t3tcSVYhao7HFECFCEzmgIczGg2HhJnxKslfc1sOw0Po_5-yeP8HyfhDgve9eEjrnAjccXHlpPHSw","messageDropdown":"1clrdnHTgyTNFEgI4LKp9w_BaZDtV3CrTPc3adwVHqSPegwm6HmOfYGdb5TOWYKSaDZOF_8XZLBVZ-_ZXyCwIFY0gPeefKk","requestDropdown":"3QtAxnDdqVObnUmb9berxbw-1CJpOn_9ZyPltBUN8cfekCkLnI0SMxqe-RYY8ZegpyIp-sREg1tUVdMN6JCBcbalJMXsApg","profileActionsDropdownHasManageJobs":"nVNyjd31eHvzEDn7W8J86cP961RxTfi9FZFnNqDDFYjDDjI5WleE_B6bYszXUyTWuILrc-avS0IAsx7G0DGyNuIq6Wdl2CQGY2QBIQgBOFmrktTjYjL03K5-"},"hasJobPostings":false,"showBusinessTooltip":false,"isCandidateSearchEnabled":false,"showRecruiterProfileOnboardingTooltip":false,"footer":{"data":{"year":"2024"},"templateName":"application\/SidebarFooter","id":"rgw10_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/application.SidebarFooter.html","_isReact":true}},"templateName":"application\/HeaderLoggedIn","id":"rgw8_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/application.HeaderLoggedIn.html","webpackEntryFile":"javascript\/bundles\/entrypoints\/application\/HeaderLoggedIn.96d81b.js","yuiModules":["wcss-styles-bundles-common.2cbed9","wcss-styles-bundles-entrypoints-application-HeaderLoggedIn.96d81b"],"_isReact":true,"_platformFeatures":{"nova":{"UseNovaRefresh":true},"rigel":{"useRigelForgeryOverlay":false},"react":{"propTypesStrictMode":false}},"_postHogFeatureFlags":{"test-ftx-home-rollout":false,"enable-session-recording":false,"survey-targeting-journal-profile-questionnaire-feb-2024":false,"mobile-enable-consent-collection":true,"ftx-frontend-social-similar-publication-recommender":"social","gb-pdp-improved-journal-representation":"journal-representation-improvements","mobile-research-digest-push-notification-copy":false,"yaro-test-prod-01":false,"app-saved-list":"control","rob-test-feature":false},"initState":{"experimentsRunningExperiments":{"experiments":{"Visit Notification Center - Updates":{"Visit Notification Center - Updates":{"name":"Visit Notification Center - Updates","viewId":"Visit Notification Center - Updates","variant":"desktop (1)"}},"Visit Notification Center - Requests":{"Visit Notification Center - Requests":{"name":"Visit Notification Center - Requests","viewId":"Visit Notification Center - Requests","variant":"desktop (1)"}},"Visit Notification Center - Messages":{"Visit Notification Center - Messages":{"name":"Visit Notification Center - Messages","viewId":"Visit Notification Center - Messages","variant":"desktop (1)"}},"Visit Publication Page":{"Visit Publication Page":{"name":"Visit Publication Page","viewId":"Visit Publication Page","variant":"desktop (1)"}},"Header Manage Jobs":{"Header Manage Jobs":{"name":"Header Manage Jobs","viewId":"Header Manage Jobs","variant":"default (i1 v2)"}},"Header":{"Header":{"name":"Header","viewId":"Header","variant":"brand refresh (i4 v1)"}},"App Store Logo Sidebar Footer":{"App Store Logo Sidebar Footer":{"name":"App Store Logo Sidebar Footer","viewId":"App Store Logo Sidebar Footer","variant":"lightLogo (i2 v1)"}},"Header Invite":{"Header Invite":{"name":"Header Invite","viewId":"Header Invite","variant":"default (i4 v1)"}},"Header Search Start Typing":{"Header Search Start Typing":{"name":"Header Search Start Typing","viewId":"Header Search Start Typing","variant":"default (i2 v1)"}},"Header New Feed Indicator":{"Header New Feed Indicator":{"name":"Header New Feed Indicator","viewId":"Header New Feed Indicator","variant":"default (11)"}}}},"accountsGlobalCurrentAccount":{"id":43822493,"isScientistLoggedIn":true,"isAccountLoggedIn":true,"settings":{"allowPublicationDownloadDataUsage":false}},"accountsGlobalAccounts":{"43822493":{"accountId":43822493,"accountKey":"Lingdang-Zhang","firstName":"Lingdang","fullName":"Lingdang Zhang","isActive":true,"type":"scientist","accountURL":"profile\/Lingdang-Zhang","urls":{"details":"profile\/Lingdang-Zhang","stats":"profile\/Lingdang-Zhang\/stats","reputation":"profile\/Lingdang-Zhang\/scores"},"profile":{"professionalInstitution":"Mount Holyoke College","professionalInstitutionUrl":null,"professionalDepartment":"Department of Biological Sciences","imageURL":"https:\/\/c5.rgstatic.net\/m\/4671872220764\/images\/template\/default\/profile\/profile_default_m.jpg","imageURL2x":"https:\/\/c5.rgstatic.net\/m\/437738464651637\/images\/template\/default\/profile\/profile_default_l.jpg","isProfilePictureAvailable":false,"professionalCountry":"United States","professionalCountryArticlized":"the United States"},"reputation":{"score":null},"isFollowedByCurrentUser":false,"canBeFollowed":false,"isStaff":false}},"rigel":{"optimisticUpdates":[],"store":{"account(id:\"AC:43822493\")":{"id":"AC:43822493","__typename":"Account","flags":{"isJournalSearchNewFeatureTooltipVisible":false,"__typename":"AccountFlags"}},"accountPeopleMappingTarget(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"node(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"person(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"authorStatsTopCoAuthors(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"coAuthor(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"publicationLegalInformation(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"maybeAnonymousPerson(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"profileStatsReadBreakdownEntity(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"successStoryTarget(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"ftxRecommendationActor(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"peopleSearchResults(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"viewer":{"account":{"__ref__":"account(id:\"AC:43822493\")"},"urlGenerator":{"mobileApp":{"androidDownloadUrl(useCase:\"FOOTER\")":"https:\/\/play.google.com\/store\/apps\/details?id=net.researchgate.shellapp&utm_source=originCH%3Dfooter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1","__typename":"MobileAppUrlGenerator"},"__typename":"UrlGenerator"},"experiments":{"mobileApp":{"androidDownload(context:\"SIDEBAR_FOOTER\")":{"goal":"6SdIvuX6moJdUSsLGYdx__kmp5UBV_2mWDhQiHGvN7dGTOpPYClJZtGApCL3IGZ-UqEgFsUMQgL6fE2XAbIjZcPB.gIVTxyq9wba25ALxX7MfpxWEozKrWNCjRajP4Fs6sR49kaezi0XA8jjUggZD0rO35NjumcEKEbmylb8FtbSnZA","__typename":"StartedExperiment"},"__typename":"MobileAppExperiments"},"__typename":"Experiments"},"__typename":"Viewer","isFeatureFlagActive(featureName:\"enableNovaRefresh\")":true},"urlGenerator":{"aboutUsUrl":"about","careersOverviewUrl":"careers","companyNewsUrl":"blog","contactUsUrl":"https:\/\/help.researchgate.net\/hc\/en-us\/requests\/new?ticket_form_id=13146494812305","helpCenterUrl":"deref\/https%3A%2F%2Fexplore.researchgate.net?forcePage=false","marketingNewsUrl":"https:\/\/www.researchgate.net\/marketing-solutions","recruiterLandingPageUrl":"scientific-recruitment","termsAndServiceUrl":"terms-of-service","privacyPolicyUrl":"privacy-policy","copyrightIpPolicyUrl":"ip-policy","imprintUrl":"imprint","appRecruitmentTrackingUrl(channel:\"FOOTER_DEFAULT\")":"go.GetApp.html?interested=true&originCh=footerDefault","appRecruitmentTrackingUrl(channel:\"FOOTER_LOGGED_OUT\")":"go.GetApp.html?interested=true&originCh=footerLoggedOut","publisherSolutionsUrl":"https:\/\/www.researchgate.net\/publisher-solutions","researchGateTwitterUrl":"https:\/\/twitter.com\/ResearchGate","researchGateFacebookUrl":"https:\/\/www.facebook.com\/ResearchGate\/","researchGateInstagramUrl":"https:\/\/www.instagram.com\/researchgate_official\/","productUpdatesUrl":"https:\/\/www.researchgate.net\/researchgate-updates","__typename":"UrlGenerator"},"__typename":"RootQueryType"}},"environment":{"isAccountLoggedIn":true,"isMobile":false,"profileImageFallback":"https:\/\/c5.rgstatic.net\/m\/437738464651637\/images\/template\/default\/profile\/profile_default_l.jpg"}},"isMainEntry":false});})();
-(function(){widgetLoader.createInitialWidget({"data":{"delayedAlert":{"data":{"currentAccountId":43822493,"viewId":"iZIWAyvvPqwA8QET1e8Ys5uH"},"templateName":"application\/DelayedAlert","id":"rgw12_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/application.DelayedAlert.html","_isReact":true},"accountKey":null},"templateName":"application\/GlobalLoggedInWidgets","id":"rgw11_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/application.GlobalLoggedInWidgets.html","webpackEntryFile":"javascript\/bundles\/entrypoints\/application\/GlobalLoggedInWidgets.c4c99d.js","yuiModules":["wcss-styles-bundles-common.2cbed9"],"_isReact":true,"_platformFeatures":{"nova":{"UseNovaRefresh":true},"rigel":{"useRigelForgeryOverlay":false},"react":{"propTypesStrictMode":false}},"_postHogFeatureFlags":{"test-ftx-home-rollout":false,"enable-session-recording":false,"survey-targeting-journal-profile-questionnaire-feb-2024":false,"mobile-enable-consent-collection":true,"ftx-frontend-social-similar-publication-recommender":"social","gb-pdp-improved-journal-representation":"journal-representation-improvements","mobile-research-digest-push-notification-copy":false,"yaro-test-prod-01":false,"app-saved-list":"control","rob-test-feature":false},"initState":{"rigel":{"optimisticUpdates":[],"store":{"viewer":{"globalLoggedInWidgets":{"mailConsentActive":false,"jobDraftsBannerActive":false,"updateUserDataActive":false,"addProfilePhotoPromoActive(accountKey:null)":false,"legalUpdatesModalActive":false,"infringementWarningModalActive":false,"recruiterBusinessTermsOfServiceModalActive":false,"__typename":"GlobalLoggedInWidgets"},"__typename":"Viewer"},"__typename":"RootQueryType"}},"environment":{"isAccountLoggedIn":true,"isMobile":false,"profileImageFallback":"https:\/\/c5.rgstatic.net\/m\/437738464651637\/images\/template\/default\/profile\/profile_default_l.jpg"}},"isMainEntry":false});})();
-(function(){widgetLoader.createInitialWidget({"data":{"year":"2024"},"templateName":"application\/DefaultFooter","id":"rgw13_65f21cbe64bcd","widgetUrl":"https:\/\/www.researchgate.net\/application.DefaultFooter.html","webpackEntryFile":"javascript\/bundles\/entrypoints\/application\/DefaultFooter.8ca55e.js","yuiModules":["wcss-styles-bundles-common.2cbed9","wcss-styles-bundles-entrypoints-application-DefaultFooter.8ca55e"],"_isReact":true,"_platformFeatures":{"nova":{"UseNovaRefresh":true},"rigel":{"useRigelForgeryOverlay":false},"react":{"propTypesStrictMode":false}},"_postHogFeatureFlags":{"test-ftx-home-rollout":false,"enable-session-recording":false,"survey-targeting-journal-profile-questionnaire-feb-2024":false,"mobile-enable-consent-collection":true,"ftx-frontend-social-similar-publication-recommender":"social","gb-pdp-improved-journal-representation":"journal-representation-improvements","mobile-research-digest-push-notification-copy":false,"yaro-test-prod-01":false,"app-saved-list":"control","rob-test-feature":false},"initState":{"applicationGlobalContent":{"contentKey":null},"experimentsRunningExperiments":{"experiments":{"App Store Logo Default Footer":{"App Store Logo Default Footer":{"name":"App Store Logo Default Footer","viewId":"App Store Logo Default Footer","variant":"lightLogo (i2 v1)"}}}},"rigel":{"optimisticUpdates":[],"store":{"account(id:\"AC:43822493\")":{"id":"AC:43822493","__typename":"Account"},"accountPeopleMappingTarget(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"node(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"person(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"fakturaEmailRecipientSourceEntity(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"authorStatsTopCoAuthors(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"coAuthor(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"publicationLegalInformation(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"maybeAnonymousPerson(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"profileStatsReadBreakdownEntity(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"successStoryTarget(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"ftxRecommendationActor(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"peopleSearchResults(id:\"AC:43822493\")":{"__ref__":"account(id:\"AC:43822493\")"},"viewer":{"account":{"__ref__":"account(id:\"AC:43822493\")"},"urlGenerator":{"mobileApp":{"androidDownloadUrl(useCase:\"FOOTER\")":"https:\/\/play.google.com\/store\/apps\/details?id=net.researchgate.shellapp&utm_source=originCH%3Dfooter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1","__typename":"MobileAppUrlGenerator"},"__typename":"UrlGenerator"},"experiments":{"mobileApp":{"androidDownload(context:\"DEFAULT_FOOTER\")":{"goal":"v1u7nuK86UimO5rBGq9A1MR_n_hYs1iIeR_mGvVaZq7IsoSVnASePX3kce6PY3WPcpM8C9-evCsesTopRY7rHMjV.B9jui20fezo_rGQvTkGptdFUmdL6yRi4UNjPCugPsNiJymkoXqZpSh3omQXDqm55JlcMOG8LchUxAgMhsN14Gw","__typename":"StartedExperiment"},"__typename":"MobileAppExperiments"},"__typename":"Experiments"},"__typename":"Viewer"},"urlGenerator":{"aboutUsUrl":"about","careersOverviewUrl":"careers","companyNewsUrl":"blog","contactUsUrl":"https:\/\/help.researchgate.net\/hc\/en-us\/requests\/new?ticket_form_id=13146494812305","helpCenterUrl":"deref\/https%3A%2F%2Fexplore.researchgate.net?forcePage=false","marketingNewsUrl":"https:\/\/www.researchgate.net\/marketing-solutions","recruiterLandingPageUrl":"scientific-recruitment","termsAndServiceUrl":"terms-of-service","privacyPolicyUrl":"privacy-policy","copyrightIpPolicyUrl":"ip-policy","imprintUrl":"imprint","appRecruitmentTrackingUrl(channel:\"FOOTER_DEFAULT\")":"go.GetApp.html?interested=true&originCh=footerDefault","appRecruitmentTrackingUrl(channel:\"FOOTER_LOGGED_OUT\")":"go.GetApp.html?interested=true&originCh=footerLoggedOut","publisherSolutionsUrl":"https:\/\/www.researchgate.net\/publisher-solutions","researchGateTwitterUrl":"https:\/\/twitter.com\/ResearchGate","researchGateLinkedInUrl":"https:\/\/www.linkedin.com\/company\/researchgate\/","researchGateFacebookUrl":"https:\/\/www.facebook.com\/ResearchGate\/","researchGateInstagramUrl":"https:\/\/www.instagram.com\/researchgate_official\/","productUpdatesUrl":"https:\/\/www.researchgate.net\/researchgate-updates","mobileApp":{"androidDownloadUrl(useCase:\"FOOTER\")":"https:\/\/play.google.com\/store\/apps\/details?id=net.researchgate.shellapp&utm_source=originCH%3Dfooter&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1","__typename":"MobileAppUrlGenerator"},"__typename":"UrlGenerator"},"__typename":"RootQueryType"}},"environment":{"isAccountLoggedIn":true,"isMobile":false,"profileImageFallback":"https:\/\/c5.rgstatic.net\/m\/437738464651637\/images\/template\/default\/profile\/profile_default_l.jpg"}},"isMainEntry":false});})();
-});});
-});
-</script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-document.addEventListener('DOMContentLoaded', function() {
-if (typeof RGCommons === 'undefined') {
-    window.rgCriticalScriptFailure = true;
-    var e = new Error('Critical scripts were not loaded');
-    e.name = 'CriticalScriptsError';
-    throw e;
-} else {
-    RGCommons.parameterFilter.filter(["ev","cp","ch","ref","dbw","pli","loginT","uid","claimChannel","enrichId","enrichSource","utm_source","utm_medium","utm_campaign","utm_term","utm_content","rgutm_meta1","el","ci","mfl","labCreated","labJoined","ec","rgInnerEc","pal"]);
-}
-});
-</script><script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-window.addEventListener('load', function() {
-if(typeof RGCommons!=="undefined"){RGCommons.performance.monitorPage("https:\/\/glassmoni.researchgate.net", ["labs.LabDetails.run.html.loggedIn.get"], "7570434e659f3cf36f70417a1c5c77cd9f3e04e5");}
-});
-</script>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKVKH7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MKVKH7');</script>
-<script id="rg-header-tag" nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6" async src="https://www.researchgate.net/header/tag.js"></script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">var rgDelivery=rgDelivery||{};rgDelivery.cmd=rgDelivery.cmd||[];var deliveryManager=deliveryManager||{_q:[]};deliveryManager.start=deliveryManager.start||function(){deliveryManager._q.push(['s', arguments]);};(function(){var tag=document.createElement("script");tag.async=true;tag.type="text/javascript";tag.src="https://www.researchgate.net/delivery/manager.js";var node=document.getElementsByTagName("script")[0];node.parentNode.insertBefore(tag,node);})();</script>
-<script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-document.addEventListener('DOMContentLoaded', function() {
-deliveryManager.start();
-});
-</script><script nonce="v0qdnDhvwqw8UOLloPs4cAJOkmCgfhV6">
-document.addEventListener('DOMContentLoaded', function() {
-function addTrackingParam(event) {
-    if (!(event.target instanceof Element)) return;
-    if (!window.pageConfig) return;
 
-    delete window.pageConfig.trackingPayload.context.section;
-    delete window.pageConfig.trackingPayload.context.position;
-    
-    var element = event.target.closest('a,button');
-    if (element) {
-        var section = event.target.closest('[data-activity-context-section]');
-        if (section) {
-            window.pageConfig.trackingPayload.context.section = section.dataset.activityContextSection;
-        }
-        
-        var position = event.target.closest('[data-activity-context-position]');
-        if (position) {
-            window.pageConfig.trackingPayload.context.position = position.dataset.activityContextPosition;
-        }
-    }
-    
-    var link = event.target.closest('a');
-    if (!link) return;
-    
-    // Don't modify external links
-    if (link.hostname !== window.location.hostname) return;
-    
-    // Encode the tracking payload as Base64 URL
-    var trackingPayload = window.pageConfig.trackingPayload;
-    var jsonString = JSON.stringify(trackingPayload);
-    var base64String = btoa(jsonString);
-    var base64Param = base64String.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-    
-    var location = window.location;
-    var base = location.protocol + '//' + location.host + '/';
-    
-    // Remove any existing '_tp' query param
-    var url = new URL(link.href, base);
-    url.searchParams.delete('_tp');
-    
-    // Add the new '_tp' query param
-    url.searchParams.append('_tp', base64Param);
-    
-    link.href = url.toString();
-}
-window.addEventListener('mouseover', addTrackingParam);
-window.addEventListener('focusin', addTrackingParam);
-window.addEventListener('touchstart', addTrackingParam);
-});
-</script>    <noscript>
-        <style>
-            .no-javascript-warning {
-                border: 1px solid #FAC8AF;
-                background-color: #FADECF;
-                margin: 0;
-                padding: 10px 15px;
-                text-align: center;
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                z-index: 10;
-            }
-            .no-javascript-warning__message {
-                padding: 10px;
-            }
-        </style>
-        <div class="no-javascript-warning">
-            <div class="no-javascript-warning__message">
-                <b>For full functionality of ResearchGate it is necessary to enable JavaScript.
-                    Here are the <a href="http://www.enable-javascript.com/" rel="nofollow noopener" target="_blank">
-                        instructions how to enable JavaScript in your web browser</a>.</b>
-            </div>
-        </div>
-    </noscript>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"863f2b44b8ff8f96","version":"2024.2.4","token":"fadfe007b29448e0b0359e73e9e3166b"}' crossorigin="anonymous"></script>
+
+<div style="height:61px;width:90px" aria-hidden="true" class="wp-block-spacer wp-container-content-1"></div>
+
+
+
+<h6 class="wp-block-heading has-inter-font-family">                   Home</h6>
+
+
+
+<h6 class="wp-block-heading has-inter-font-family">Questions</h6>
+
+
+
+<h6 class="wp-block-heading has-inter-font-family">Jobs</h6>
+
+
+
+<div style="height:61px;width:202px" aria-hidden="true" class="wp-block-spacer wp-container-content-2"></div>
+
+
+<form role="search" method="get" action="https://commons.mtholyoke.edu/tryasdfeb/" class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search is-layout-flow wp-block-search-is-layout-flow"><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-3" >Search</label><div class="wp-block-search__inside-wrapper "  style="width: 571px;border-width: 1px"><input class="wp-block-search__input" id="wp-block-search__input-3" placeholder="Professional CatLover-Exclusive Searching Engine" value="" type="search" name="s" required  style="border-radius: 0px"/><button aria-label="Search" class="wp-block-search__button has-text-color has-contrast-color has-background has-tertiary-background-color has-icon wp-element-button" type="submit"  style="border-radius: 0px"><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
+				</svg></button></div></form></div>
+
+
+
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide" style="margin-top:2px;margin-bottom:2px" />
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="padding-right:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-15 wp-block-group-is-layout-flex" style="padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+<figure class="wp-block-image size-large is-resized has-custom-border is-style-rounded"><img decoding="async" width="850" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg" alt="" class="wp-image-11" style="border-style:none;border-width:0px;border-radius:100px;aspect-ratio:1;object-fit:cover;width:148px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg 850w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-249x300.jpg 249w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-768x925.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956.jpg 1170w" sizes="(max-width: 850px) 100vw, 850px" /></figure>
+
+
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="font-size:clamp(22.544px, 1.409rem + ((1vw - 3.2px) * 1.643), 37px);"><strong>Dr.Zeta</strong></p>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-6 wp-block-group-is-layout-flex">
+<p class="has-inter-font-family">Meofessor</p>
+
+
+
+<p class="has-inter-font-family">at&nbsp;Meowshacussates Institute of Technology (MIT)</p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-7 wp-block-group-is-layout-flex">
+<p class="has-text-color" style="color:#969696">United States</p>
+
+
+
+<p>|</p>
+
+
+
+<p class="has-pale-cyan-blue-color has-text-color"><a href="http://zetaslab.com">Website</a></p>
+</div>
+</div>
+
+
+
+<div style="height:100px;width:306px" aria-hidden="true" class="wp-block-spacer wp-container-content-9"></div>
+
+
+
+<div style="height:100px;width:0px" aria-hidden="true" class="wp-block-spacer wp-container-content-10"></div>
+
+
+
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-11 wp-block-group-is-layout-flex">
+<p class="has-contrast-color has-text-color" style="font-style:normal;font-weight:300">Research Interest Score</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background" />
+
+
+
+<p>16,919</p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-12 wp-block-group-is-layout-flex">
+<p class="has-contrast-color has-text-color" style="font-style:normal;font-weight:300">Citations</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background is-style-default" />
+
+
+
+<p>42,573</p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-13 wp-block-group-is-layout-flex">
+<p class="has-contrast-color has-text-color" style="font-style:normal;font-weight:300">h-index</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background" />
+
+
+
+<p>92</p>
+</div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background is-style-wide" />
+
+
+
+<div class="wp-block-group has-global-padding is-content-justification-left is-layout-constrained wp-container-17 wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button has-inter-font-family"><a class="wp-block-button__link has-base-background-color has-text-color has-background wp-element-button" href="https://zetaslab.com/Research/" style="color:#040404">Profile</a></div>
+
+
+
+<div class="wp-block-button has-inter-font-family"><a class="wp-block-button__link has-base-background-color has-text-color has-background wp-element-button" href="http://zetaslab.com/Publication/" style="color:#040404"><strong>Research (601)</strong></a></div>
+
+
+
+<div class="wp-block-button has-inter-font-family"><a class="wp-block-button__link has-base-background-color has-text-color has-background wp-element-button" style="color:#040404;padding-top:0;padding-bottom:0">Stat</a></div>
+</div>
+</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="margin-top:0;margin-bottom:0;background-color:#969696;color:#969696" />
+</div>
+
+
+
+<div class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-79 wp-block-group-is-layout-flex" style="padding-right:0;padding-left:0">
+<div class="wp-block-group is-layout-flow wp-container-28 wp-block-group-is-layout-flow" style="padding-right:0;padding-left:0">
+<div class="wp-block-group is-vertical is-content-justification-left is-nowrap is-layout-flex wp-container-27 wp-block-group-is-layout-flex" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+<div class="wp-block-group has-base-background-color has-background is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<div style="height:12px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="has-text-color has-inter-font-family" style="color:#676363;padding-top:0;padding-right:var(--wp--preset--spacing--30);padding-bottom:0;padding-left:var(--wp--preset--spacing--30);font-size:clamp(16.834px, 1.052rem + ((1vw - 3.2px) * 1.042), 26px);">Research</p>
+
+
+
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-wide" />
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-25 wp-block-group-is-layout-flex">
+<div style="height:100px;width:22px" aria-hidden="true" class="wp-block-spacer wp-container-content-20"></div>
+
+
+
+<ul class="wp-block-social-links has-small-icon-size is-style-pill-shape is-content-justification-right is-layout-flex wp-container-21 wp-block-social-links-is-layout-flex"><li class="wp-social-link wp-social-link-github  wp-block-social-link"><a href="https://github.com/DrZetathecat" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,2C6.477,2,2,6.477,2,12c0,4.419,2.865,8.166,6.839,9.489c0.5,0.09,0.682-0.218,0.682-0.484 c0-0.236-0.009-0.866-0.014-1.699c-2.782,0.602-3.369-1.34-3.369-1.34c-0.455-1.157-1.11-1.465-1.11-1.465 c-0.909-0.62,0.069-0.608,0.069-0.608c1.004,0.071,1.532,1.03,1.532,1.03c0.891,1.529,2.341,1.089,2.91,0.833 c0.091-0.647,0.349-1.086,0.635-1.337c-2.22-0.251-4.555-1.111-4.555-4.943c0-1.091,0.39-1.984,1.03-2.682 C6.546,8.54,6.202,7.524,6.746,6.148c0,0,0.84-0.269,2.75,1.025C10.295,6.95,11.15,6.84,12,6.836 c0.85,0.004,1.705,0.114,2.504,0.336c1.909-1.294,2.748-1.025,2.748-1.025c0.546,1.376,0.202,2.394,0.1,2.646 c0.64,0.699,1.026,1.591,1.026,2.682c0,3.841-2.337,4.687-4.565,4.935c0.359,0.307,0.679,0.917,0.679,1.852 c0,1.335-0.012,2.415-0.012,2.741c0,0.269,0.18,0.579,0.688,0.481C19.138,20.161,22,16.416,22,12C22,6.477,17.523,2,12,2z"></path></svg><span class="wp-block-social-link-label screen-reader-text">GitHub</span></a></li></ul>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-24 wp-block-group-is-layout-flex" style="padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:0">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Research items</p>
+
+
+
+<p>Article (398)</p>
+
+
+
+<p>Chapter (19)</p>
+
+
+
+<p>Conference Paper (24)</p>
+
+
+
+<p>Patent (2)</p>
+
+
+
+<p>Data (81)</p>
+
+
+
+<p>Technical Report (8)</p>
+
+
+
+<p>Preprint (32)</p>
+
+
+
+<p>All (489)</p>
+
+
+
+<p>Full-texts (37)</p>
+
+
+
+<p>Questions</p>
+
+
+
+<p>Answers</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="padding-right:0;padding-left:var(--wp--preset--spacing--50)">
+<div class="wp-block-group has-base-background-color has-background has-inter-font-family has-global-padding is-content-justification-left is-layout-constrained wp-container-77 wp-block-group-is-layout-constrained" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+<div style="height:8px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="has-text-color has-inter-font-family" style="color:#535353;font-size:clamp(16.834px, 1.052rem + ((1vw - 3.2px) * 1.042), 26px);font-style:normal;font-weight:400">Research items</p>
+
+
+
+<div class="wp-block-group alignwide is-content-justification-space-between is-nowrap is-layout-flex wp-container-31 wp-block-group-is-layout-flex" style="padding-right:0;padding-left:0"><form role="search" method="get"  class="wp-block-search__no-button wp-block-search is-layout-flow wp-block-search-is-layout-flow"><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-29"  style="font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem)">Search</label><div class="wp-block-search__inside-wrapper "  style="width: 805px"><input class="wp-block-search__input has-border-color" id="wp-block-search__input-29" placeholder="Search by Publication Titles or Keywords" value="" type="search" name="s" required  style="border-width: 4px;border-color: #abb8c3;border-radius: 0px;font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.591), 1.2rem)"/></div></form>
+
+
+<p class="has-text-color has-inter-font-family" style="color:#535353;font-size:12px;font-style:normal;font-weight:400">   Sorted by: Newest</p>
+</div>
+
+
+
+<div class="wp-block-group has-base-background-color has-background has-inter-font-family is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background is-style-wide" />
+
+
+
+<p class="has-contrast-color has-text-color"><strong>How to Effectively Wake Humans Up At 3 a.m. Just For Treats.</strong></p>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-33 wp-block-group-is-layout-flex">
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#b6e7d2">Article</a></div>
+
+
+
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-background-color has-text-color has-background has-border-color wp-element-button" style="border-color:#0e341a;border-width:1px;color:#16320a">Full-text available</a></div>
+</div>
+
+
+
+<p class="has-text-color has-inter-font-family" style="color:#535353">June 2023</p>
+</div>
+
+
+
+<div class="wp-block-group has-inter-font-family is-nowrap is-layout-flex wp-container-34 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<p>Cat Is The Best Journal</p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-44 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-37 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="1024" height="683" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1024x683.jpg" alt="" class="wp-image-26" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1024x683.jpg 1024w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-300x200.jpg 300w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-768x512.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1536x1024.jpg 1536w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div class="wp-block-group has-global-padding is-content-justification-left is-layout-constrained wp-container-36 wp-block-group-is-layout-constrained">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Lingdang Zhang .</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-40 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="768" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-768x1024.jpg" alt="" class="wp-image-32" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-768x1024.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-225x300.jpg 225w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2.jpg 1152w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Beta the Cat .</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-43 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="850" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg" alt="" class="wp-image-11" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg 850w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-249x300.jpg 249w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-768x925.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956.jpg 1170w" sizes="(max-width: 850px) 100vw, 850px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Dr. Zeta .</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-45 wp-block-group-is-layout-flex">
+<p class="has-text-color" style="color:#535353">104 Reads</p>
+
+
+
+<p class="has-text-color" style="color:#535353">.</p>
+
+
+
+<p class="has-text-color" style="color:#535353">17 Recommendations</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-group has-base-background-color has-background has-inter-font-family is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background is-style-wide" />
+
+
+
+<p class="has-contrast-color has-text-color"><strong>Neurophysiological Correlates Of the Human-Cat Bond</strong> <strong>&#8212; Why Are Cats So Cute?</strong></p>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-48 wp-block-group-is-layout-flex">
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#b6e7d2">Article</a></div>
+
+
+
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-background-color has-text-color has-background has-border-color wp-element-button" style="border-color:#0e341a;border-width:1px;color:#16320a">Full-text available</a></div>
+</div>
+
+
+
+<p class="has-text-color has-inter-font-family" style="color:#535353">December 2023</p>
+</div>
+
+
+
+<div class="wp-block-group has-inter-font-family is-nowrap is-layout-flex wp-container-49 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<p>It&#8217;s Just A Cat Journal</p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-59 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-52 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="1024" height="683" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1024x683.jpg" alt="" class="wp-image-26" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1024x683.jpg 1024w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-300x200.jpg 300w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-768x512.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1536x1024.jpg 1536w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div class="wp-block-group has-global-padding is-content-justification-left is-layout-constrained wp-container-51 wp-block-group-is-layout-constrained">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Lingdang Zhang .</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-55 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="768" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-768x1024.jpg" alt="" class="wp-image-32" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-768x1024.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-225x300.jpg 225w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2.jpg 1152w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Beta the Cat .</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-58 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="850" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg" alt="" class="wp-image-11" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg 850w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-249x300.jpg 249w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-768x925.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956.jpg 1170w" sizes="(max-width: 850px) 100vw, 850px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Dr. Zeta .</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-60 wp-block-group-is-layout-flex">
+<p class="has-text-color" style="color:#535353">311 Reads</p>
+
+
+
+<p class="has-text-color" style="color:#535353">.</p>
+
+
+
+<p class="has-text-color" style="color:#535353">43 Recommendations</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-group has-base-background-color has-background has-inter-font-family is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<hr class="wp-block-separator has-text-color has-cyan-bluish-gray-color has-alpha-channel-opacity has-cyan-bluish-gray-background-color has-background is-style-wide" />
+
+
+
+<p class="has-contrast-color has-text-color">Fluffy Chonks and Cuteness Aggression</p>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-63 wp-block-group-is-layout-flex">
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-background wp-element-button" style="background-color:#b6e7d2">Article</a></div>
+
+
+
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-background-color has-text-color has-background has-border-color wp-element-button" style="border-color:#0e341a;border-width:1px;color:#16320a">Full-text available</a></div>
+</div>
+
+
+
+<p class="has-text-color has-inter-font-family" style="color:#535353">Feburary 2024</p>
+</div>
+
+
+
+<div class="wp-block-group has-inter-font-family is-nowrap is-layout-flex wp-container-64 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<p>Human-Cat Interaction Journal</p>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-74 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-67 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="1024" height="683" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1024x683.jpg" alt="" class="wp-image-26" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1024x683.jpg 1024w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-300x200.jpg 300w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-768x512.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b-1536x1024.jpg 1536w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/2aad7584994a768c6b26a3ba21d9f09b.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div class="wp-block-group has-global-padding is-content-justification-left is-layout-constrained wp-container-66 wp-block-group-is-layout-constrained">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Lingdang Zhang .</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-70 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="768" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-768x1024.jpg" alt="" class="wp-image-32" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-768x1024.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2-225x300.jpg 225w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/image_67168769-1152x1536-2.jpg 1152w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Beta the Cat .</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-73 wp-block-group-is-layout-flex" style="padding-right:0;padding-bottom:0;padding-left:0">
+<figure class="wp-block-image size-large is-resized has-custom-border"><img decoding="async" width="850" height="1024" src="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg" alt="" class="wp-image-11" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:31px;height:auto" srcset="https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-850x1024.jpg 850w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-249x300.jpg 249w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956-768x925.jpg 768w, https://commons.mtholyoke.edu/tryasdfeb/wp-content/uploads/sites/936/2024/03/IMG_4956.jpg 1170w" sizes="(max-width: 850px) 100vw, 850px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<p>Dr. Zeta .</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-75 wp-block-group-is-layout-flex">
+<p class="has-text-color" style="color:#535353">311 Reads</p>
+
+
+
+<p class="has-text-color" style="color:#535353">.</p>
+
+
+
+<p class="has-text-color" style="color:#535353">43 Recommendations</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+		<style id="skip-link-styles">
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+	</style>
+		<script>
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	</script>
+	<div id="mhc-accessibility-footer"><a href="https://make.wordpress.org/accessibility/testing/" title="Wordpress Accessibility" target="_blank">Wordpress Accessibility</a> — <a href="https://docs.google.com/a/mtholyoke.edu/forms/d/1FKYqbuNoq2tl6ASESQO78sSJACk9KtCcT102S7kWuqM/viewform" title="MHC Accessibility Barriers Form" target="_blank">MHC Accessibility Barriers Form</a></div><script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/mhc-accessibility-footer/mhc-accessibility-footer.js' id='mhc-accessibility-footer-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/hoverintent-js.min.js?ver=2.2.1' id='hoverintent-js-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/admin-bar.min.js?ver=6.3.3' id='admin-bar-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0' id='react-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0' id='react-dom-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6' id='wp-escape-html-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40' id='wp-element-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/bu-learning-blocks/build/frontend/frontend.build.js?ver=1658323255' id='bulb-frontend-js-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/chunk-frontend-vendors.js?ver=8.18' id='monsterinsights-vue-vendors-js'></script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/chunk-common.js?ver=8.18' id='monsterinsights-vue-common-js'></script>
+<script type='text/javascript' id='monsterinsights-vue-frontend-js-extra'>
+/* <![CDATA[ */
+var monsterinsights = {"ajax":"https:\/\/commons.mtholyoke.edu\/tryasdfeb\/wp-admin\/admin-ajax.php","nonce":"40990522be","network":"","translations":{"":{"domain":"google-analytics-for-wordpress","lang":"en_US"}},"assets":"https:\/\/commons.mtholyoke.edu\/tryasdfeb\/wp-content\/plugins\/google-analytics-for-wordpress\/lite\/assets\/vue","addons_url":"https:\/\/commons.mtholyoke.edu\/wp-admin\/network\/admin.php?page=monsterinsights_network#\/addons","page_id":"","page_title":"Archives","plugin_version":"8.18","shareasale_id":"0","shareasale_url":"https:\/\/www.shareasale.com\/r.cfm?B=971799&U=0&M=69975&urllink=","is_admin":"","reports_url":"https:\/\/commons.mtholyoke.edu\/tryasdfeb\/wp-admin\/admin.php?page=monsterinsights_reports","authed":"","getting_started_url":"https:\/\/commons.mtholyoke.edu\/wp-admin\/network\/admin.php?page=monsterinsights_network#\/about\/getting-started","wizard_url":"https:\/\/commons.mtholyoke.edu\/tryasdfeb\/wp-admin\/index.php?page=monsterinsights-onboarding","roles_manage_options":{"administrator":"Administrator"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://commons.mtholyoke.edu/tryasdfeb/wp-content/plugins/google-analytics-for-wordpress/lite/assets/vue/js/frontend.js?ver=8.18' id='monsterinsights-vue-frontend-js'></script>
 </body>
 </html>
